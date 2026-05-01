@@ -2,3 +2,6 @@ Running: xsim.dir/TB_Tri_State_Buffer_behav/xsimk.exe -simmode gui -wdb TB_Tri_S
 Design successfully loaded
 Design Loading Memory Usage: 10796 KB (Peak: 10796 KB)
 Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 12212 KB (Peak: 12212 KB)
+Simulation CPU Usage: 124 ms
