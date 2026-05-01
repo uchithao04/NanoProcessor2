@@ -1,0 +1,158 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May  1 12:29:38 2026
+# Process ID: 7924
+# Current directory: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18740 C:\Users\USER\Desktop\Nanoprocessor-Design-Compettition-main\src\project_1\project_1.xpr
+# Log file: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/vivado.log
+# Journal file: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.xpr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Project 1-208] No val for DA Elab Attr
+INFO: [Common 17-14] Message 'Project 1-208' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-865] Could not find the file C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/utils_1/imports/synth_1/Nano_Processor_7_seg.dcp
+WARNING: [Project 1-865] Could not find the file C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/utils_1/imports/synth_1/Nano_Processor_7_seg.dcp
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorInstallDirModelSim has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorInstallDirQuesta has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorInstallDirXcelium has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorInstallDirVCS has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorInstallDirRiviera has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorInstallDirActiveHdl has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirModelSim has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirQuesta has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirXcelium has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirVCS has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirRiviera has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirActiveHdl has no valid value
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionXsim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionModelSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionQuesta
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionVCS
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionRiviera
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionActiveHdl
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionXsim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionModelSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionQuesta
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionVCS
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionRiviera
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionActiveHdl
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name EnableResourceEstimation
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimCompileState
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name DcpsUptoDate
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name UseInlineHdlIP
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name LocalIPRepoLeafDirName
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 814.770 ; gain = 123.242
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+update_compile_order -fileset Final
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May  1 12:35:42 2026...
