@@ -1,7 +1,16 @@
-Vivado Simulator 2018.3
-Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 41a95e760e764e1d8cbc20c4eb5b3f85 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Nano_Processor_7_Seg_behav xil_defaultlib.TB_Nano_Processor_7_Seg -log elaborate.log 
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Tri_State_Buffer_behav xil_defaultlib.TB_Tri_State_Buffer -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Tri_State_Buffer [tri_state_buffer_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_tri_state_buffer
+Built simulation snapshot TB_Tri_State_Buffer_behav

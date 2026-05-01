@@ -1,12 +1,24 @@
 #-----------------------------------------------------------
-# Vivado v2018.3 (64-bit)
-# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
-# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Fri May  1 13:30:53 2026
-# Process ID: 16144
-# Current directory: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1
-# Command line: vivado.exe -log Nano_Processor_7_seg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Nano_Processor_7_seg.tcl -notrace
-# Log file: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Nano_Processor_7_seg.vdi
-# Journal file: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1\vivado.jou
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri May  1 22:09:53 2026
+# Process ID         : 50664
+# Current directory  : C:/Users/VICTUS/OneDrive/Desktop/COADD/Nanoprocessor-Design/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1
+# Command line       : vivado.exe -log Tri_State_Buffer.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Tri_State_Buffer.tcl -notrace
+# Log file           : C:/Users/VICTUS/OneDrive/Desktop/COADD/Nanoprocessor-Design/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Tri_State_Buffer.vdi
+# Journal file       : C:/Users/VICTUS/OneDrive/Desktop/COADD/Nanoprocessor-Design/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1\vivado.jou
+# Running On         : NethmiNadeeshani
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 8845HS w/ Radeon 780M Graphics
+# CPU Frequency      : 3793 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16356 MB
+# Swap memory        : 30044 MB
+# Total Virtual      : 46401 MB
+# Available Virtual  : 5787 MB
 #-----------------------------------------------------------
-source Nano_Processor_7_seg.tcl -notrace
+source Tri_State_Buffer.tcl -notrace

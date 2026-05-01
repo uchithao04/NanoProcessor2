@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Product Version: Vivado v2018.3 (64-bit)              -->
-<!--                                                         -->
-<!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
+<!-- Product Version: Vivado v2025.2 (64-bit)                              -->
+<!--                                                                         -->
+<!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
+<!-- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="39" Path="C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.xpr">
+<Project Product="Vivado" Version="7" Minor="71" Path="C:/Users/VICTUS/OneDrive/Desktop/COADD/Nanoprocessor-Design/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="41a95e760e764e1d8cbc20c4eb5b3f85"/>
@@ -12,27 +13,53 @@
     <Option Name="CompiledLibDirXSim" Val=""/>
     <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
     <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
-    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
     <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
     <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
     <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
     <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="SimulatorInstallDirModelSim" Val=""/>
+    <Option Name="SimulatorInstallDirQuesta" Val=""/>
+    <Option Name="SimulatorInstallDirXcelium" Val=""/>
+    <Option Name="SimulatorInstallDirVCS" Val=""/>
+    <Option Name="SimulatorInstallDirRiviera" Val=""/>
+    <Option Name="SimulatorInstallDirActiveHdl" Val=""/>
+    <Option Name="SimulatorGccInstallDirModelSim" Val=""/>
+    <Option Name="SimulatorGccInstallDirQuesta" Val=""/>
+    <Option Name="SimulatorGccInstallDirXcelium" Val=""/>
+    <Option Name="SimulatorGccInstallDirVCS" Val=""/>
+    <Option Name="SimulatorGccInstallDirRiviera" Val=""/>
+    <Option Name="SimulatorGccInstallDirActiveHdl" Val=""/>
+    <Option Name="SimulatorVersionXsim" Val="2025.2"/>
+    <Option Name="SimulatorVersionModelSim" Val="2025.2"/>
+    <Option Name="SimulatorVersionQuesta" Val="2025.2"/>
+    <Option Name="SimulatorVersionXcelium" Val="25.03.002"/>
+    <Option Name="SimulatorVersionVCS" Val="X-2025.06"/>
+    <Option Name="SimulatorVersionRiviera" Val="2024.10"/>
+    <Option Name="SimulatorVersionActiveHdl" Val="15.0"/>
+    <Option Name="SimulatorGccVersionXsim" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionModelSim" Val="7.4.0"/>
+    <Option Name="SimulatorGccVersionQuesta" Val="7.4.0"/>
+    <Option Name="SimulatorGccVersionXcelium" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionVCS" Val="9.2.0"/>
+    <Option Name="SimulatorGccVersionRiviera" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionActiveHdl" Val="9.3.0"/>
     <Option Name="BoardPart" Val="digilentinc.com:basys3:part0:1.2"/>
     <Option Name="ActiveSimSet" Val="Final"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
     <Option Name="IPCachePermission" Val="read"/>
     <Option Name="IPCachePermission" Val="write"/>
     <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="EnableResourceEstimation" Val="FALSE"/>
+    <Option Name="SimCompileState" Val="TRUE"/>
     <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
     <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
-    <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSABoardId" Val="basys3"/>
-    <Option Name="DSANumComputeUnits" Val="60"/>
-    <Option Name="WTXSimLaunchSim" Val="37"/>
+    <Option Name="WTXSimLaunchSim" Val="46"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -52,12 +79,16 @@
     <Option Name="XSimArrayDisplayLimit" Val="1024"/>
     <Option Name="XSimTraceLimit" Val="65536"/>
     <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+    <Option Name="DcpsUptoDate" Val="TRUE"/>
+    <Option Name="UseInlineHdlIP" Val="TRUE"/>
+    <Option Name="LocalIPRepoLeafDirName" Val="ip_repo"/>
   </Configuration>
-  <FileSets Version="1" Minor="31">
-    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+  <FileSets Version="1" Minor="32">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/imports/sources_1/new/Add_Sub_4.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Add_Sub_4.vhd"/>
           <Attr Name="ImportTime" Val="1657518986"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -66,6 +97,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/sources_1/new/Adder_3.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Adder_3.vhd"/>
           <Attr Name="ImportTime" Val="1657545522"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -74,12 +106,14 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Comp_4.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/D_FF.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/imports/new/D_FF.vhd"/>
           <Attr Name="ImportTime" Val="1658975144"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -88,6 +122,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Decoder_3_to_8.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Decoder_3_to_8.vhd"/>
           <Attr Name="ImportTime" Val="1657724778"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -96,22 +131,16 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/FA.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/imports/new/FA.vhd"/>
           <Attr Name="ImportTime" Val="1654162580"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/HA.vhd">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/imports/new/HA.vhd"/>
-          <Attr Name="ImportTime" Val="1654167734"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Instruction_Decoder.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Instruction_Decoder.vhd"/>
           <Attr Name="ImportTime" Val="1658927214"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -120,6 +149,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/LUT_16_7.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/imports/new/LUT_16_7.vhd"/>
           <Attr Name="ImportTime" Val="1655976125"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -128,12 +158,14 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Mul_4.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Mux_2_to_1.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Mux_2_to_1.vhd"/>
           <Attr Name="ImportTime" Val="1657685052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -142,6 +174,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Mux_3_2_to_1.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Mux_3_2_to_1.vhd"/>
           <Attr Name="ImportTime" Val="1657631468"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -150,6 +183,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Mux_4_2_to_1.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Mux_4_2_to_1.vhd"/>
           <Attr Name="ImportTime" Val="1657685166"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -158,6 +192,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Mux_4_8_to_1.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Mux_4_8_to_1.vhd"/>
           <Attr Name="ImportTime" Val="1657715204"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -166,6 +201,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Nano_Processor.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Nano_Processor.vhd"/>
           <Attr Name="ImportTime" Val="1658973775"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -174,6 +210,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/sources_1/new/Program_Counter.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Program_Counter.vhd"/>
           <Attr Name="ImportTime" Val="1657597536"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -182,6 +219,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Program_Rom.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Program_Rom.vhd"/>
           <Attr Name="ImportTime" Val="1658941382"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -190,6 +228,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/RCA_4.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/imports/new/RCA_4.vhd"/>
           <Attr Name="ImportTime" Val="1658927380"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -198,6 +237,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Reg.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Reg.vhd"/>
           <Attr Name="ImportTime" Val="1658975094"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -206,6 +246,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Reg_4.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Reg_4.vhd"/>
           <Attr Name="ImportTime" Val="1657776266"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -214,6 +255,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Reg_Bank.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Reg_Bank.vhd"/>
           <Attr Name="ImportTime" Val="1657790092"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -222,6 +264,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Slow_Clk.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab5/lab5.srcs/sources_1/new/Slow_Clk.vhd"/>
           <Attr Name="ImportTime" Val="1655703368"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -230,18 +273,34 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/Nano_Processor_7_seg.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/new/Nano_Processor_7_seg.vhd"/>
           <Attr Name="ImportTime" Val="1658975588"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/HA.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.srcs/sources_1/imports/new/HA.vhd"/>
+          <Attr Name="ImportTime" Val="1654167734"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Tri_State_Buffer.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="Nano_Processor_7_seg"/>
+        <Option Name="TopModule" Val="Tri_State_Buffer"/>
       </Config>
     </FileSet>
-    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
       <File Path="$PSRCDIR/constrs_1/imports/Downloads/Basys3Labs.xdc">
         <FileInfo>
@@ -255,7 +314,7 @@
         <Option Name="ConstrsType" Val="XDC"/>
       </Config>
     </FileSet>
-    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
@@ -264,10 +323,27 @@
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+        <Option Name="CosimRootfs" Val=""/>
+        <Option Name="CosimSDfile" Val=""/>
+        <Option Name="CosimSDDir" Val=""/>
+        <Option Name="CosimOutDir" Val=""/>
+        <Option Name="CosimXsa" Val=""/>
+        <Option Name="CosimAIKernel" Val=""/>
+        <Option Name="LogicalNoCTop" Val=""/>
+        <Option Name="LogicalNoCTopLib" Val=""/>
+        <Option Name="Dmv" Val=""/>
       </Config>
     </FileSet>
-    <FileSet Name="Add_Sub_4" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Add_Sub_4">
+    <FileSet Name="Add_Sub_4" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Add_Sub_4" RelGenDir="$PGENDIR/Add_Sub_4">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/Add_Sub_4/imports/lab9ak.sim/TB_Add_Sub_4.vhd">
         <FileInfo>
@@ -283,10 +359,27 @@
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+        <Option Name="CosimRootfs" Val=""/>
+        <Option Name="CosimSDfile" Val=""/>
+        <Option Name="CosimSDDir" Val=""/>
+        <Option Name="CosimOutDir" Val=""/>
+        <Option Name="CosimXsa" Val=""/>
+        <Option Name="CosimAIKernel" Val=""/>
+        <Option Name="LogicalNoCTop" Val=""/>
+        <Option Name="LogicalNoCTopLib" Val=""/>
+        <Option Name="Dmv" Val=""/>
       </Config>
     </FileSet>
-    <FileSet Name="Adder_3" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Adder_3">
+    <FileSet Name="Adder_3" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Adder_3" RelGenDir="$PGENDIR/Adder_3">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/Adder_3/imports/lab9ak.sim/TB_Adder_3.vhd">
         <FileInfo>
@@ -302,10 +395,27 @@
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+        <Option Name="CosimRootfs" Val=""/>
+        <Option Name="CosimSDfile" Val=""/>
+        <Option Name="CosimSDDir" Val=""/>
+        <Option Name="CosimOutDir" Val=""/>
+        <Option Name="CosimXsa" Val=""/>
+        <Option Name="CosimAIKernel" Val=""/>
+        <Option Name="LogicalNoCTop" Val=""/>
+        <Option Name="LogicalNoCTopLib" Val=""/>
+        <Option Name="Dmv" Val=""/>
       </Config>
     </FileSet>
-    <FileSet Name="Program_Counter" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Program_Counter">
+    <FileSet Name="Program_Counter" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Program_Counter" RelGenDir="$PGENDIR/Program_Counter">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/Program_Counter/imports/new/TB_Program_Counter.vhd">
         <FileInfo>
@@ -321,19 +431,28 @@
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+        <Option Name="CosimRootfs" Val=""/>
+        <Option Name="CosimSDfile" Val=""/>
+        <Option Name="CosimSDDir" Val=""/>
+        <Option Name="CosimOutDir" Val=""/>
+        <Option Name="CosimXsa" Val=""/>
+        <Option Name="CosimAIKernel" Val=""/>
+        <Option Name="LogicalNoCTop" Val=""/>
+        <Option Name="LogicalNoCTopLib" Val=""/>
+        <Option Name="Dmv" Val=""/>
       </Config>
     </FileSet>
-    <FileSet Name="Reg_Bank" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Reg_Bank">
+    <FileSet Name="Reg_Bank" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Reg_Bank" RelGenDir="$PGENDIR/Reg_Bank">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/Reg_Bank/imports/lab9ak.sim/TB_Reg_Bank.vhd">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.sim/TB_Reg_Bank.vhd"/>
-          <Attr Name="ImportTime" Val="1658889002"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/Reg_Bank/imports/lab9ak.sim/TB_Decoder_3_to_8.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
@@ -361,16 +480,41 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/Reg_Bank/imports/lab9ak.sim/TB_Reg_Bank.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.sim/TB_Reg_Bank.vhd"/>
+          <Attr Name="ImportTime" Val="1658889002"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="TB_Reg_Bank"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+        <Option Name="CosimRootfs" Val=""/>
+        <Option Name="CosimSDfile" Val=""/>
+        <Option Name="CosimSDDir" Val=""/>
+        <Option Name="CosimOutDir" Val=""/>
+        <Option Name="CosimXsa" Val=""/>
+        <Option Name="CosimAIKernel" Val=""/>
+        <Option Name="LogicalNoCTop" Val=""/>
+        <Option Name="LogicalNoCTopLib" Val=""/>
+        <Option Name="Dmv" Val=""/>
       </Config>
     </FileSet>
-    <FileSet Name="Mux_4_8_to_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Mux_4_8_to_1">
+    <FileSet Name="Mux_4_8_to_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Mux_4_8_to_1" RelGenDir="$PGENDIR/Mux_4_8_to_1">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/Mux_4_8_to_1/imports/lab9ak.sim/TB_Mux_8_to_1.vhd">
         <FileInfo>
@@ -386,10 +530,27 @@
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+        <Option Name="CosimRootfs" Val=""/>
+        <Option Name="CosimSDfile" Val=""/>
+        <Option Name="CosimSDDir" Val=""/>
+        <Option Name="CosimOutDir" Val=""/>
+        <Option Name="CosimXsa" Val=""/>
+        <Option Name="CosimAIKernel" Val=""/>
+        <Option Name="LogicalNoCTop" Val=""/>
+        <Option Name="LogicalNoCTopLib" Val=""/>
+        <Option Name="Dmv" Val=""/>
       </Config>
     </FileSet>
-    <FileSet Name="Mux_3_2_to_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Mux_3_2_to_1">
+    <FileSet Name="Mux_3_2_to_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Mux_3_2_to_1" RelGenDir="$PGENDIR/Mux_3_2_to_1">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/Mux_3_2_to_1/imports/lab9ak.sim/TB_Mux_2_1.vhd">
         <FileInfo>
@@ -405,10 +566,27 @@
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+        <Option Name="CosimRootfs" Val=""/>
+        <Option Name="CosimSDfile" Val=""/>
+        <Option Name="CosimSDDir" Val=""/>
+        <Option Name="CosimOutDir" Val=""/>
+        <Option Name="CosimXsa" Val=""/>
+        <Option Name="CosimAIKernel" Val=""/>
+        <Option Name="LogicalNoCTop" Val=""/>
+        <Option Name="LogicalNoCTopLib" Val=""/>
+        <Option Name="Dmv" Val=""/>
       </Config>
     </FileSet>
-    <FileSet Name="Program_Rom" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Program_Rom">
+    <FileSet Name="Program_Rom" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Program_Rom" RelGenDir="$PGENDIR/Program_Rom">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/Program_Rom/imports/lab9ak.sim/TB_Program_Rom.vhd">
         <FileInfo>
@@ -424,10 +602,27 @@
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+        <Option Name="CosimRootfs" Val=""/>
+        <Option Name="CosimSDfile" Val=""/>
+        <Option Name="CosimSDDir" Val=""/>
+        <Option Name="CosimOutDir" Val=""/>
+        <Option Name="CosimXsa" Val=""/>
+        <Option Name="CosimAIKernel" Val=""/>
+        <Option Name="LogicalNoCTop" Val=""/>
+        <Option Name="LogicalNoCTopLib" Val=""/>
+        <Option Name="Dmv" Val=""/>
       </Config>
     </FileSet>
-    <FileSet Name="Instruction_Decoder" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Instruction_Decoder">
+    <FileSet Name="Instruction_Decoder" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Instruction_Decoder" RelGenDir="$PGENDIR/Instruction_Decoder">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/Instruction_Decoder/imports/lab9ak.sim/TB_Instruction_Decoder.vhd">
         <FileInfo>
@@ -443,10 +638,27 @@
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+        <Option Name="CosimRootfs" Val=""/>
+        <Option Name="CosimSDfile" Val=""/>
+        <Option Name="CosimSDDir" Val=""/>
+        <Option Name="CosimOutDir" Val=""/>
+        <Option Name="CosimXsa" Val=""/>
+        <Option Name="CosimAIKernel" Val=""/>
+        <Option Name="LogicalNoCTop" Val=""/>
+        <Option Name="LogicalNoCTopLib" Val=""/>
+        <Option Name="Dmv" Val=""/>
       </Config>
     </FileSet>
-    <FileSet Name="Slow_Clk" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Slow_Clk">
+    <FileSet Name="Slow_Clk" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Slow_Clk" RelGenDir="$PGENDIR/Slow_Clk">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/Slow_Clk/imports/lab5.sim/Slow_Clk_Sim.vhd">
         <FileInfo>
@@ -462,10 +674,27 @@
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+        <Option Name="CosimRootfs" Val=""/>
+        <Option Name="CosimSDfile" Val=""/>
+        <Option Name="CosimSDDir" Val=""/>
+        <Option Name="CosimOutDir" Val=""/>
+        <Option Name="CosimXsa" Val=""/>
+        <Option Name="CosimAIKernel" Val=""/>
+        <Option Name="LogicalNoCTop" Val=""/>
+        <Option Name="LogicalNoCTopLib" Val=""/>
+        <Option Name="Dmv" Val=""/>
       </Config>
     </FileSet>
-    <FileSet Name="Nano_Processor" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Nano_Processor">
+    <FileSet Name="Nano_Processor" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Nano_Processor" RelGenDir="$PGENDIR/Nano_Processor">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/Nano_Processor/imports/new/TB_Nano_Processor.vhd">
         <FileInfo>
@@ -482,10 +711,27 @@
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+        <Option Name="CosimRootfs" Val=""/>
+        <Option Name="CosimSDfile" Val=""/>
+        <Option Name="CosimSDDir" Val=""/>
+        <Option Name="CosimOutDir" Val=""/>
+        <Option Name="CosimXsa" Val=""/>
+        <Option Name="CosimAIKernel" Val=""/>
+        <Option Name="LogicalNoCTop" Val=""/>
+        <Option Name="LogicalNoCTopLib" Val=""/>
+        <Option Name="Dmv" Val=""/>
       </Config>
     </FileSet>
-    <FileSet Name="LUT_16_7" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/LUT_16_7">
+    <FileSet Name="LUT_16_7" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/LUT_16_7" RelGenDir="$PGENDIR/LUT_16_7">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/LUT_16_7/imports/lab7.sim/LUT_Sim.vhd">
         <FileInfo>
@@ -501,36 +747,104 @@
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+        <Option Name="CosimRootfs" Val=""/>
+        <Option Name="CosimSDfile" Val=""/>
+        <Option Name="CosimSDDir" Val=""/>
+        <Option Name="CosimOutDir" Val=""/>
+        <Option Name="CosimXsa" Val=""/>
+        <Option Name="CosimAIKernel" Val=""/>
+        <Option Name="LogicalNoCTop" Val=""/>
+        <Option Name="LogicalNoCTopLib" Val=""/>
+        <Option Name="Dmv" Val=""/>
       </Config>
     </FileSet>
-    <FileSet Name="Final" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Final">
+    <FileSet Name="Final" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/Final" RelGenDir="$PGENDIR/Final">
       <Filter Type="Srcs"/>
+      <File Path="$PPRDIR/TB_Nano_Processor_7_Seg_behav.wcfg">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/Final/imports/lab9ak.sim/TB_Nano_Processor_7_Seg.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/VivadoProjects/lab9/lab9ak.sim/TB_Nano_Processor_7_Seg.vhd"/>
           <Attr Name="ImportTime" Val="1658975454"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/TB_Nano_Processor_7_Seg_behav.wcfg">
+      <File Path="$PSRCDIR/Final/new/TB_HA.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/Final/new/TB_RCA_4.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/Final/new/TB_FA.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/Final/new/TB_D_FF.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/Final/new/TB_Tri_State_Buffer.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="TB_Nano_Processor_7_Seg"/>
+        <Option Name="TopModule" Val="TB_Tri_State_Buffer"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
-        <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
         <Option Name="XSimWcfgFile" Val="$PPRDIR/TB_Nano_Processor_7_Seg_behav.wcfg"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+        <Option Name="CosimRootfs" Val=""/>
+        <Option Name="CosimSDfile" Val=""/>
+        <Option Name="CosimSDDir" Val=""/>
+        <Option Name="CosimOutDir" Val=""/>
+        <Option Name="CosimXsa" Val=""/>
+        <Option Name="CosimAIKernel" Val=""/>
+        <Option Name="LogicalNoCTop" Val=""/>
+        <Option Name="LogicalNoCTopLib" Val=""/>
+        <Option Name="Dmv" Val=""/>
       </Config>
     </FileSet>
-    <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
       <Filter Type="Utils"/>
       <Config>
         <Option Name="TopAutoSet" Val="TRUE"/>
@@ -555,8 +869,8 @@
       <Option Name="Description" Val="Active-HDL Simulator"/>
     </Simulator>
   </Simulators>
-  <Runs Version="1" Minor="10">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+  <Runs Version="1" Minor="22">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
         <Step Id="synth_design"/>
@@ -564,8 +878,9 @@
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" LaunchOptions="-jobs 8 " AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
         <Step Id="init_design"/>
@@ -581,6 +896,7 @@
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
     </Run>
   </Runs>
   <Board>
@@ -615,7 +931,4 @@
       <CurrentDashboard>default_dashboard</CurrentDashboard>
     </Dashboards>
   </DashboardSummary>
-  <BootPmcSettings Version="1" Minor="0">
-    <Parameters/>
-  </BootPmcSettings>
 </Project>
