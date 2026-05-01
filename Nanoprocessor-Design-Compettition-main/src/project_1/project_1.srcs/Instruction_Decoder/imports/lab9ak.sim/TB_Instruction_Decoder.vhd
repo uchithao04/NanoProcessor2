@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 27.07.2022 03:36:20
+-- Create Date: 01.04.2026 20:00:00
 -- Design Name: 
 -- Module Name: TB_Instruction_Decoder - Behavioral
 -- Project Name: 
@@ -18,7 +18,13 @@
 -- 
 ----------------------------------------------------------------------------------
 
-
+----------------------------------------------------------------------------------
+-- Group Members:
+-- GunawardenaNNDeA --- 240205A --- 111010101001001101 --- Last 4 bits: 1101
+-- GunasekaraPSI --- 240197X --- 111010101001000101 --- Last 4 bits: 0101
+-- GunarathnaIKL --- 240195N --- 111010101001000011 --- Last 4 bits: 0011
+-- HettiarachchiUO --- 240230U --- 111010101001100110 --- Last 4 bits: 0110
+----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -38,22 +44,23 @@ end TB_Instruction_Decoder;
 architecture Behavioral of TB_Instruction_Decoder is
 
     Component Instruction_Decoder
-    Port ( Ins : in STD_LOGIC_VECTOR (11 downto 0);
-           RegJmp : in STD_LOGIC_VECTOR (3 downto 0);
-           RegEn : out STD_LOGIC_VECTOR (2 downto 0);
-           LoadSel : out STD_LOGIC;
-           ImVal : out STD_LOGIC_VECTOR (3 downto 0);
-           RegSel1 : out STD_LOGIC_VECTOR (2 downto 0);
-           RegSel2 : out STD_LOGIC_VECTOR (2 downto 0);
-           AddSubSel : out STD_LOGIC;
-           Jmp : out STD_LOGIC;
+    Port ( Ins        : in  STD_LOGIC_VECTOR (11 downto 0);
+           RegJmp     : in  STD_LOGIC_VECTOR (3 downto 0);
+           RegEn      : out STD_LOGIC_VECTOR (2 downto 0);
+           LoadSel    : out STD_LOGIC;
+           ImVal      : out STD_LOGIC_VECTOR (3 downto 0);
+           RegSel1    : out STD_LOGIC_VECTOR (2 downto 0);
+           RegSel2    : out STD_LOGIC_VECTOR (2 downto 0);
+           AluOp      : out STD_LOGIC_VECTOR (1 downto 0);
+           Jmp        : out STD_LOGIC;
            AddressJmp : out STD_LOGIC_VECTOR (2 downto 0));
     End Component;
     
     signal Ins : STD_LOGIC_VECTOR (11 downto 0);
     signal RegJmp, ImVal : STD_LOGIC_VECTOR (3 downto 0);
     signal RegEn, RegSel1, RegSel2, AddressJmp : STD_LOGIC_VECTOR (2 downto 0);
-    signal LoadSel, AddSubSel, Jmp : STD_LOGIC;
+    signal AluOp : STD_LOGIC_VECTOR (1 downto 0);
+    signal LoadSel, Jmp : STD_LOGIC;
     
 begin
     UUT: Instruction_Decoder
@@ -65,32 +72,57 @@ begin
             ImVal => ImVal,
             RegSel1 => RegSel1,
             RegSel2 => RegSel2,
-            AddSubSel => AddSubSel,
+            AluOp => AluOp,
             Jmp => Jmp,
             AddressJmp => AddressJmp
         );
 
     Process begin
-        Ins <= "100010000001";
         RegJmp <= "0000";
-        wait for 140ns;
         
-        Ins <= "100100000010";
-        wait for 140ns;
+        -- GunawardenaNNDeA (1101)
+        -- MOVI R1, 1101 => 100 (MOVI) | 001 (R1) | 00 | 1101
+        Ins <= "100001001101";
+        wait for 80ns;
         
-        Ins <= "101110000011";
-        wait for 140ns;
+        -- GunasekaraPSI (0101)
+        -- MOVI R2, 0101 => 100 (MOVI) | 010 (R2) | 00 | 0101
+        Ins <= "100010000101";
+        wait for 80ns;
         
-        Ins <= "001110100000";
-        wait for 140ns;
-                
-        Ins <= "001110010000";
-        wait for 140ns;
+        -- GunarathnaIKL (0011)
+        -- MOVI R3, 0011 => 100 (MOVI) | 011 (R3) | 00 | 0011
+        Ins <= "100011000011";
+        wait for 80ns;
         
-        Ins <= "110000000111";
-        wait for 140ns;
+        -- HettiarachchiUO (0110)
+        -- MOVI R4, 0110 => 100 (MOVI) | 100 (R4) | 00 | 0110
+        Ins <= "100100000110";
+        wait for 80ns;
         
-        Ins <= "110000000101";
+        -- ADD R1, R2 => 000 (ADD) | 001 (R1) | 010 (R2) | 000
+        Ins <= "000001010000";
+        wait for 80ns;
+        
+        -- SUB R3, R4 => 001 (SUB) | 011 (R3) | 100 (R4) | 000
+        Ins <= "001011100000";
+        wait for 80ns;
+        
+        -- MUL R1, R3 => 010 (MUL) | 001 (R1) | 011 (R3) | 000
+        Ins <= "010001011000";
+        wait for 80ns;
+        
+        -- CMP R2, R4 => 011 (CMP) | 010 (R2) | 100 (R4) | 000
+        Ins <= "011010100000";
+        wait for 80ns;
+        
+        -- JZR R1, 111 => 110 (JZR) | 001 (R1) | 000 | 111
+        Ins <= "110001000111";
+        RegJmp <= "0000"; -- should jump
+        wait for 80ns;
+        
+        Ins <= "110001000111";
+        RegJmp <= "0001"; -- should NOT jump
         wait;
         
     End process;

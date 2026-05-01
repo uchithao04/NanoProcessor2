@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../project_1.srcs/sources_1/new/Tri_State_Buffer.vhd" \
-"../../../../project_1.srcs/Final/new/TB_Tri_State_Buffer.vhd" \
-
-# Do not sort compile order
-nosort

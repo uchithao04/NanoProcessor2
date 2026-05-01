@@ -1,100 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1777653523">
-  <File Type="PA-TCL" Name="Tri_State_Buffer.tcl"/>
   <File Type="REPORTS-TCL" Name="Tri_State_Buffer_reports.tcl"/>
-  <File Type="INIT-TIMING" Name="Tri_State_Buffer_timing_summary_init.rpt"/>
-  <File Type="OPT-DCP" Name="Tri_State_Buffer_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Tri_State_Buffer_power_summary_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="Tri_State_Buffer.mmi"/>
   <File Type="OPT-DRC" Name="Tri_State_Buffer_drc_opted.rpt"/>
-  <File Type="OPT-UTIL" Name="Tri_State_Buffer_utilization_opted.rpt"/>
-  <File Type="OPT-UTIL-PB" Name="Tri_State_Buffer_utilization_opted.pb"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="Tri_State_Buffer_methodology_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="Tri_State_Buffer.hwdef"/>
-  <File Type="OPT-TIMING" Name="Tri_State_Buffer_timing_summary_opted.rpt"/>
-  <File Type="OPT-RQA-PB" Name="Tri_State_Buffer_rqa_opted.pb"/>
-  <File Type="PWROPT-DCP" Name="Tri_State_Buffer_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="Tri_State_Buffer_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="Tri_State_Buffer_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="Tri_State_Buffer_placed.dcp"/>
-  <File Type="PLACE-IO" Name="Tri_State_Buffer_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="Tri_State_Buffer_clock_utilization_placed.rpt"/>
+  <File Type="BG-DRC" Name="Tri_State_Buffer.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="Tri_State_Buffer_route_status.pb"/>
+  <File Type="BG-BGN" Name="Tri_State_Buffer.bgn"/>
   <File Type="PLACE-UTIL" Name="Tri_State_Buffer_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="Tri_State_Buffer_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="Tri_State_Buffer_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="Tri_State_Buffer_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="Tri_State_Buffer_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="Tri_State_Buffer_timing_summary_placed.rpt"/>
-  <File Type="PLACE-RQA-PB" Name="Tri_State_Buffer_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="Tri_State_Buffer_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="Tri_State_Buffer_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="Tri_State_Buffer_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="Tri_State_Buffer_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-TIMING" Name="Tri_State_Buffer_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="Tri_State_Buffer_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="Tri_State_Buffer_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="Tri_State_Buffer_routed_bb.dcp"/>
-  <File Type="ROUTE-UTIL" Name="Tri_State_Buffer_utilization_routed.rpt"/>
-  <File Type="ROUTE-UTIL-PB" Name="Tri_State_Buffer_utilization_routed.pb"/>
-  <File Type="ROUTE-DRC" Name="Tri_State_Buffer_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="Tri_State_Buffer_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="Tri_State_Buffer_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="Tri_State_Buffer_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Tri_State_Buffer_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Tri_State_Buffer_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="Tri_State_Buffer_power_routed.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="Tri_State_Buffer_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="Tri_State_Buffer_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="Tri_State_Buffer_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="Tri_State_Buffer_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="Tri_State_Buffer_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="Tri_State_Buffer_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="Tri_State_Buffer_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="Tri_State_Buffer_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="Tri_State_Buffer_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="Tri_State_Buffer_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="Tri_State_Buffer_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="Tri_State_Buffer_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-RQS-PB" Name="Tri_State_Buffer_rqs_routed.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Tri_State_Buffer_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Tri_State_Buffer_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Nano_Processor_7_seg_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Nano_Processor_7_seg_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Nano_Processor_7_seg_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Nano_Processor_7_seg_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Nano_Processor_7_seg_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Nano_Processor_7_seg_bus_skew_postroute_physopted.rpx"/>
-  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="Tri_State_Buffer.nts"/>
-  <File Type="NOC_SOLUTION_FILE" Name="Tri_State_Buffer.ncr"/>
-  <File Type="BG-BIT" Name="Tri_State_Buffer.bit"/>
+  <File Type="PLACE-IO" Name="Tri_State_Buffer_io_placed.rpt"/>
   <File Type="BG-BIN" Name="Tri_State_Buffer.bin"/>
+  <File Type="PLACE-CTRL" Name="Tri_State_Buffer_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Tri_State_Buffer_power_routed.rpx"/>
   <File Type="BITSTR-MSK" Name="Tri_State_Buffer.msk"/>
   <File Type="BITSTR-RBT" Name="Tri_State_Buffer.rbt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Tri_State_Buffer_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Tri_State_Buffer_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Tri_State_Buffer_route_status.rpt"/>
+  <File Type="PA-TCL" Name="Tri_State_Buffer.tcl"/>
+  <File Type="ROUTE-PWR" Name="Tri_State_Buffer_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="Tri_State_Buffer_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Tri_State_Buffer_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Tri_State_Buffer_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="Tri_State_Buffer.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Tri_State_Buffer_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Tri_State_Buffer_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Tri_State_Buffer.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Tri_State_Buffer_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="Tri_State_Buffer_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Tri_State_Buffer.vdi"/>
+  <File Type="ROUTE-CLK" Name="Tri_State_Buffer_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Tri_State_Buffer_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Tri_State_Buffer_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Tri_State_Buffer_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Tri_State_Buffer_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Tri_State_Buffer_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Tri_State_Buffer_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Tri_State_Buffer_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Tri_State_Buffer_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="Tri_State_Buffer.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Tri_State_Buffer_bus_skew_postroute_physopted.pb"/>
   <File Type="BITSTR-NKY" Name="Tri_State_Buffer.nky"/>
   <File Type="BITSTR-BMM" Name="Tri_State_Buffer_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="Tri_State_Buffer.mmi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="Tri_State_Buffer.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Tri_State_Buffer_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="Tri_State_Buffer_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Tri_State_Buffer_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Tri_State_Buffer_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="Tri_State_Buffer_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="Tri_State_Buffer_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Tri_State_Buffer_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Tri_State_Buffer_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Tri_State_Buffer_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Tri_State_Buffer_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Tri_State_Buffer_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Tri_State_Buffer_postroute_physopt_bb.dcp"/>
   <File Type="PDI-FILE" Name="Tri_State_Buffer.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="Tri_State_Buffer_boot.pdi"/>
   <File Type="PL-PDI-FILE" Name="Tri_State_Buffer_pld.pdi"/>
   <File Type="RCFI_FILE" Name="Tri_State_Buffer.rcfi"/>
   <File Type="CFI_FILE" Name="Tri_State_Buffer.cfi"/>
   <File Type="RNPI_FILE" Name="Tri_State_Buffer.rnpi"/>
-  <File Type="RCDO-FILE" Name="Tri_State_Buffer.rcdo"/>
-  <File Type="MARKER-RNPI-FILE" Name="Tri_State_Buffer_markers.rnpi"/>
-  <File Type="MARKER-RCDO-FILE" Name="Tri_State_Buffer_markers.rcdo"/>
-  <File Type="BOOT_RNPI_FILE" Name="Tri_State_Buffer_boot.rnpi"/>
-  <File Type="BOOT_MARKER_RNPI_FILE" Name="Tri_State_Buffer_boot_markers.rnpi"/>
-  <File Type="PL_RNPI_FILE" Name="Tri_State_Buffer_pld.rnpi"/>
-  <File Type="PL_MARKER_RNPI_FILE" Name="Tri_State_Buffer_pld_markers.rnpi"/>
-  <File Type="PL_MASK_RNPI_FILE" Name="Tri_State_Buffer_pld_mask.rnpi"/>
-  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="Tri_State_Buffer_pld_shutdown.rnpi"/>
-  <File Type="PL_UNMASK_RNPI_FILE" Name="Tri_State_Buffer_pld_unmask.rnpi"/>
-  <File Type="PL-RCDO-FILE" Name="Tri_State_Buffer_pld.rcdo"/>
-  <File Type="PL-CLEAR-RCDO-FILE" Name="Tri_State_Buffer_pld_clear.rcdo"/>
-  <File Type="PL_MARKER_RCDO_FILE" Name="Tri_State_Buffer_pld_markers.rcdo"/>
-  <File Type="PL_MASK_RCDO_FILE" Name="Tri_State_Buffer_pld_mask.rcdo"/>
-  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="Tri_State_Buffer_pld_unmask_markers.rcdo"/>
-  <File Type="PL_UNMASK_RCDO_FILE" Name="Tri_State_Buffer_pld_unmask.rcdo"/>
   <File Type="NPI_FILE" Name="Tri_State_Buffer.npi"/>
   <File Type="RBD_FILE" Name="Tri_State_Buffer.rbd"/>
+  <File Type="ROUTE-RQS" Name="Tri_State_Buffer_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Tri_State_Buffer_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <File Type="MMI-FILE" Name="Tri_State_Buffer.mmi"/>
   <File Type="BIF-FILE" Name="Tri_State_Buffer.bif"/>
   <File Type="BOOT-BIF-FILE" Name="Tri_State_Buffer_boot.bif"/>
@@ -102,17 +77,24 @@
   <File Type="LTX-FILE" Name="Tri_State_Buffer.ltx"/>
   <File Type="BOOT-LTX-FILE" Name="Tri_State_Buffer_boot.ltx"/>
   <File Type="PL-LTX-FILE" Name="Tri_State_Buffer_pld.ltx"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="Tri_State_Buffer.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="Tri_State_Buffer.sysdef"/>
-  <File Type="BG-BGN" Name="Tri_State_Buffer.bgn"/>
-  <File Type="BG-DRC" Name="Tri_State_Buffer.drc"/>
-  <File Type="RDI-RDI" Name="Tri_State_Buffer.vdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="Tri_State_Buffer_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Tri_State_Buffer_postroute_physopted.rqs"/>
-  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="RCDO-FILE" Name="Tri_State_Buffer.rcdo"/>
+  <File Type="MARKER-RCDO-FILE" Name="Tri_State_Buffer_markers.rcdo"/>
+  <File Type="PL-RCDO-FILE" Name="Tri_State_Buffer_pld.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="Tri_State_Buffer_markers.rnpi"/>
+  <File Type="BOOT_RNPI_FILE" Name="Tri_State_Buffer_boot.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="Tri_State_Buffer_pld.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="Tri_State_Buffer_boot_markers.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="Tri_State_Buffer_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="Tri_State_Buffer_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="Tri_State_Buffer_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="Tri_State_Buffer_pld_unmask.rnpi"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="Tri_State_Buffer_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="Tri_State_Buffer_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="Tri_State_Buffer_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="Tri_State_Buffer_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="Tri_State_Buffer_pld_unmask.rcdo"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="Tri_State_Buffer.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="Tri_State_Buffer.ncr"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/sources_1/new/Add_Sub_4.vhd">
@@ -360,5 +342,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

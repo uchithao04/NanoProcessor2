@@ -112,6 +112,7 @@ Process Begin
     wait for 80ns;
 
     address <= "1111";
+    wait for 80ns;
     wait;
 
 End Process;

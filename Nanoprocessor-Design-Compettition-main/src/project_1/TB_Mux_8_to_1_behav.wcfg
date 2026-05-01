@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_Mux_8_to_1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_Mux_8_to_1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.000 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/TB_Mux_8_to_1/S" type="array">
+      <obj_property name="ElementShortName">S[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S[2:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Mux_8_to_1/I0" type="array">
+      <obj_property name="ElementShortName">I0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Mux_8_to_1/I1" type="array">
+      <obj_property name="ElementShortName">I1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Mux_8_to_1/I2" type="array">
+      <obj_property name="ElementShortName">I2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Mux_8_to_1/I3" type="array">
+      <obj_property name="ElementShortName">I3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Mux_8_to_1/I4" type="array">
+      <obj_property name="ElementShortName">I4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Mux_8_to_1/I5" type="array">
+      <obj_property name="ElementShortName">I5[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I5[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Mux_8_to_1/I6" type="array">
+      <obj_property name="ElementShortName">I6[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I6[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Mux_8_to_1/I7" type="array">
+      <obj_property name="ElementShortName">I7[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I7[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Mux_8_to_1/Y" type="array">
+      <obj_property name="ElementShortName">Y[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_Mux_8_to_1/S" type="array">
+      <obj_property name="ElementShortName">S[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S[2:0]</obj_property>
+   </wvobject>
+</wave_config>

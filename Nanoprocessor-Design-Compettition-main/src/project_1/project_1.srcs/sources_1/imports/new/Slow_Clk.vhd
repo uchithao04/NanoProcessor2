@@ -45,7 +45,7 @@ begin
     process (Clk_in) begin
         if (rising_edge(Clk_in)) then
             count <= count + 1;
-            if (count = 2) then  -- SIMULATION: was 50000000, change back before synthesis!
+            if (count = 2) then  
 --            if (count = 100000000) then
                 clk_status <= not clk_status;
                 Clk_out <= clk_status;
