@@ -1,6 +1,10 @@
 
 { 
+<<<<<<< Updated upstream
     crc :  12112017458991911224  , 
+=======
+    crc :  2866268375643651774  , 
+>>>>>>> Stashed changes
     ccp_crc :  0  , 
     cmdline : " --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Nano_Processor_7_Seg_behav xil_defaultlib.TB_Nano_Processor_7_Seg" , 
     buildDate : "Nov 14 2025" , 

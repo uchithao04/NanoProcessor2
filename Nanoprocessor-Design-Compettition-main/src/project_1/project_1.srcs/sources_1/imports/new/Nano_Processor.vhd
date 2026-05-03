@@ -1,25 +1,12 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 07/27/2022 09:04:19 AM
--- Design Name: 
 -- Module Name: Nano_Processor - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
 -- Description:
 --   Extended ISA with 3-bit opcode [11:9]:
 --     000 = ADD,  001 = SUB,  010 = MUL,  011 = CMP
---     100 = MOVI, 110 = JZR
---   New components: Mul_4, Comp_4
---   ALU result and flags muxed by AluOp[1:0]
---
--- Revision:
--- Revision 0.02 - MUL and CMP instructions added
--- 
+--     100 = MOVI, 101 = DIV,  110 = JZR
+--   New components: Mul_4, Comp_4, Div_4
+--   ALU result and flags muxed by AluOp[2:0]
 ----------------------------------------------------------------------------------
-
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -42,7 +29,7 @@ component Instruction_Decoder
            ImVal      : out STD_LOGIC_VECTOR (3 downto 0);
            RegSel1    : out STD_LOGIC_VECTOR (2 downto 0);
            RegSel2    : out STD_LOGIC_VECTOR (2 downto 0);
-           AluOp      : out STD_LOGIC_VECTOR (1 downto 0);
+           AluOp      : out STD_LOGIC_VECTOR (2 downto 0);
            Jmp        : out STD_LOGIC;
            AddressJmp : out STD_LOGIC_VECTOR (2 downto 0));
 end component;
@@ -120,7 +107,6 @@ component Slow_Clk
            Clk_out : out STD_LOGIC);
 end component;
 
--- *** NEW: Mul_4 and Comp_4 ***
 component Mul_4
     Port ( A        : in  STD_LOGIC_VECTOR (3 downto 0);
            B        : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -135,6 +121,14 @@ component Comp_4
            Equal   : out STD_LOGIC;
            Greater : out STD_LOGIC;
            Result  : out STD_LOGIC_VECTOR (3 downto 0));
+end component;
+
+component Div_4
+    Port ( A        : in  STD_LOGIC_VECTOR (3 downto 0);
+           B        : in  STD_LOGIC_VECTOR (3 downto 0);
+           Q        : out STD_LOGIC_VECTOR (3 downto 0);
+           Overflow : out STD_LOGIC;
+           Zero     : out STD_LOGIC);
 end component;
 
 -- Instruction and data buses
@@ -153,12 +147,13 @@ signal pc_in              : STD_LOGIC_VECTOR (2 downto 0) := "000";
 signal clock_out          : STD_LOGIC;
 signal load_select        : STD_LOGIC;
 signal jump_flag          : STD_LOGIC;
-signal alu_op             : STD_LOGIC_VECTOR (1 downto 0);  -- 00=ADD,01=SUB,10=MUL,11=CMP
+signal alu_op             : STD_LOGIC_VECTOR (2 downto 0);  -- 000=ADD,001=SUB,010=MUL,011=CMP,101=DIV
 
 -- ALU result signals
 signal add_sub_out        : STD_LOGIC_VECTOR (3 downto 0);
 signal mul_out            : STD_LOGIC_VECTOR (3 downto 0);
 signal comp_out           : STD_LOGIC_VECTOR (3 downto 0);
+signal div_out            : STD_LOGIC_VECTOR (3 downto 0);
 signal alu_result         : STD_LOGIC_VECTOR (3 downto 0);
 signal immediate_value    : STD_LOGIC_VECTOR (3 downto 0);
 
@@ -169,6 +164,8 @@ signal mul_overflow       : STD_LOGIC;
 signal mul_zero           : STD_LOGIC;
 signal comp_equal         : STD_LOGIC;
 signal comp_greater       : STD_LOGIC;
+signal div_overflow       : STD_LOGIC;
+signal div_zero           : STD_LOGIC;
 
 -- Muxed flags driven to outputs
 signal alu_zero           : STD_LOGIC;
@@ -176,16 +173,10 @@ signal alu_overflow       : STD_LOGIC;
 
 begin
 
-    -- -------------------------------------------------------
-    -- Clock divider
-    -- -------------------------------------------------------
     slow_clock_0 : Slow_Clk
         port map ( Clk_in  => Clk,
                    Clk_out => clock_out);
 
-    -- -------------------------------------------------------
-    -- Instruction Decoder (3-bit opcode)
-    -- -------------------------------------------------------
     Instruction_Decoder_0 : Instruction_Decoder
         port map ( Ins        => I,
                    RegJmp     => mux1_out,
@@ -198,9 +189,6 @@ begin
                    Jmp        => jump_flag,
                    AddressJmp => address_to_jump);
 
-    -- -------------------------------------------------------
-    -- Register Bank (8 x 4-bit registers)
-    -- -------------------------------------------------------
     Reg_Bank_0 : Reg_Bank
         port map ( En  => register_enable,
                    Clk => clock_out,
@@ -215,24 +203,18 @@ begin
                    Q6  => D6,
                    Q7  => D7);
 
-    -- 8-to-1 mux: read Rd (first operand / jump check register)
     Mux_4_8_to_1_1 : Mux_4_8_to_1
         port map ( I0 => D0, I1 => D1, I2 => D2, I3 => D3,
                    I4 => D4, I5 => D5, I6 => D6, I7 => D7,
                    S  => register_select_1,
                    Y  => mux1_out);
 
-    -- 8-to-1 mux: read Rs (second operand)
     Mux_4_8_to_1_2 : Mux_4_8_to_1
         port map ( I0 => D0, I1 => D1, I2 => D2, I3 => D3,
                    I4 => D4, I5 => D5, I6 => D6, I7 => D7,
                    S  => register_select_2,
                    Y  => mux2_out);
 
-    -- -------------------------------------------------------
-    -- ALU units: Add/Sub, Multiply, Compare
-    -- -------------------------------------------------------
-    -- Add_Sub_4: Control=alu_op(0)  → 0=ADD, 1=SUB
     Add_Sub_4_0 : Add_Sub_4
         port map ( Control  => alu_op(0),
                    A        => mux1_out,
@@ -255,50 +237,50 @@ begin
                    Greater => comp_greater,
                    Result  => comp_out);
 
-    -- -------------------------------------------------------
-    -- ALU result mux (4-way, selected by AluOp)
-    -- -------------------------------------------------------
-    with alu_op select
-        alu_result <= add_sub_out when "00",   -- ADD
-                      add_sub_out when "01",   -- SUB
-                      mul_out     when "10",   -- MUL
-                      comp_out    when others; -- CMP (always "0000", RegEn="000")
-
-    -- -------------------------------------------------------
-    -- Flag mux
-    -- -------------------------------------------------------
-    with alu_op select
-        alu_zero     <= addsub_zero  when "00",
-                        addsub_zero  when "01",
-                        mul_zero     when "10",
-                        comp_equal   when others;
+    Div_4_0 : Div_4
+        port map ( A        => mux1_out,
+                   B        => mux2_out,
+                   Q        => div_out,
+                   Overflow => div_overflow,
+                   Zero     => div_zero);
 
     with alu_op select
-        alu_overflow <= addsub_overflow when "00",
-                        addsub_overflow when "01",
-                        mul_overflow    when "10",
-                        comp_greater    when others;
+        alu_result <= add_sub_out when "000",   -- ADD
+                      add_sub_out when "001",   -- SUB
+                      mul_out     when "010",   -- MUL
+                      comp_out    when "011",   -- CMP
+                      div_out     when "101",   -- DIV
+                      "0000"      when others; 
+
+    with alu_op select
+        alu_zero     <= addsub_zero  when "000",
+                        addsub_zero  when "001",
+                        mul_zero     when "010",
+                        comp_equal   when "011",
+                        div_zero     when "101",
+                        '0'          when others;
+
+    with alu_op select
+        alu_overflow <= addsub_overflow when "000",
+                        addsub_overflow when "001",
+                        mul_overflow    when "010",
+                        comp_greater    when "011",
+                        div_overflow    when "101",
+                        '0'             when others;
 
     Zero     <= alu_zero;
     Overflow <= alu_overflow;
 
-    -- -------------------------------------------------------
-    -- LoadSel mux: choose between ALU result and immediate
-    -- -------------------------------------------------------
     Mux_4_2_to_1_0 : Mux_4_2_to_1
         port map ( I0 => alu_result,
                    I1 => immediate_value,
                    S  => load_select,
                    Y  => M);
 
-    -- -------------------------------------------------------
-    -- Program Counter logic
-    -- -------------------------------------------------------
     Adder_3_0 : Adder_3
         port map ( A => memory_select,
                    S => adder_out);
 
-    -- PC mux: choose between PC+1 (normal) and jump address
     Mux_3_2_to_1_0 : Mux_3_2_to_1
         port map ( I0 => adder_out,
                    I1 => address_to_jump,
@@ -311,14 +293,10 @@ begin
                    Res => reset,
                    Q   => memory_select);
 
-    -- -------------------------------------------------------
-    -- Program ROM
-    -- -------------------------------------------------------
     ProgramROM_0 : Program_Rom
         port map ( memory_select   => memory_select,
                    instruction_bus => I);
 
-    -- R7 drives the answer output (displayed on 7-seg / LEDs)
     Answer <= D7;
-
+    
 end Behavioral;

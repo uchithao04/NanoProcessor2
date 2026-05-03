@@ -1,8 +1,14 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------
+<<<<<<< Updated upstream:Optimized/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_utilization_placed.rpt
 | Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
 | Date         : Thu Aug 18 08:10:07 2022
 | Host         : Akmal-Computer running 64-bit major release  (build 9200)
+=======
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun May  3 11:28:50 2026
+| Host         : DESKTOP-FT0TDHF running 64-bit major release  (build 9200)
+>>>>>>> Stashed changes:Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_utilization_placed.rpt
 | Command      : report_utilization -file Nano_Processor_7_seg_utilization_placed.rpt -pb Nano_Processor_7_seg_utilization_placed.pb
 | Design       : Nano_Processor_7_seg
 | Device       : 7a35tcpg236-1
@@ -31,6 +37,7 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
+<<<<<<< Updated upstream:Optimized/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_utilization_placed.rpt
 | Slice LUTs              |   52 |     0 |     20800 |  0.25 |
 |   LUT as Logic          |   52 |     0 |     20800 |  0.25 |
 |   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
@@ -38,6 +45,15 @@ Table of Contents
 |   Register as Flip Flop |   53 |     0 |     41600 |  0.13 |
 |   Register as Latch     |    0 |     0 |     41600 |  0.00 |
 | F7 Muxes                |    0 |     0 |     16300 |  0.00 |
+=======
+| Slice LUTs              |   78 |     0 |     20800 |  0.38 |
+|   LUT as Logic          |   78 |     0 |     20800 |  0.38 |
+|   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
+| Slice Registers         |   51 |     0 |     41600 |  0.12 |
+|   Register as Flip Flop |   51 |     0 |     41600 |  0.12 |
+|   Register as Latch     |    0 |     0 |     41600 |  0.00 |
+| F7 Muxes                |    3 |     0 |     16300 |  0.02 |
+>>>>>>> Stashed changes:Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_utilization_placed.rpt
 | F8 Muxes                |    0 |     0 |      8150 |  0.00 |
 +-------------------------+------+-------+-----------+-------+
 
@@ -57,13 +73,18 @@ Table of Contents
 | 0     |          Yes |           - |          Set |
 | 16    |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
+<<<<<<< Updated upstream:Optimized/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_utilization_placed.rpt
 | 37    |          Yes |       Reset |            - |
+=======
+| 51    |          Yes |       Reset |            - |
+>>>>>>> Stashed changes:Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_utilization_placed.rpt
 +-------+--------------+-------------+--------------+
 
 
 2. Slice Logic Distribution
 ---------------------------
 
+<<<<<<< Updated upstream:Optimized/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_utilization_placed.rpt
 +-------------------------------------------+------+-------+-----------+-------+
 |                 Site Type                 | Used | Fixed | Available | Util% |
 +-------------------------------------------+------+-------+-----------+-------+
@@ -84,6 +105,29 @@ Table of Contents
 | Unique Control Sets                       |    7 |       |           |       |
 +-------------------------------------------+------+-------+-----------+-------+
 * Note: Review the Control Sets Report for more information regarding control sets.
+=======
++--------------------------------------------+------+-------+-----------+-------+
+|                  Site Type                 | Used | Fixed | Available | Util% |
++--------------------------------------------+------+-------+-----------+-------+
+| Slice                                      |   35 |     0 |      8150 |  0.43 |
+|   SLICEL                                   |   28 |     0 |           |       |
+|   SLICEM                                   |    7 |     0 |           |       |
+| LUT as Logic                               |   78 |     0 |     20800 |  0.38 |
+|   using O5 output only                     |    0 |       |           |       |
+|   using O6 output only                     |   56 |       |           |       |
+|   using O5 and O6                          |   22 |       |           |       |
+| LUT as Memory                              |    0 |     0 |      9600 |  0.00 |
+|   LUT as Distributed RAM                   |    0 |     0 |           |       |
+|   LUT as Shift Register                    |    0 |     0 |           |       |
+| Slice Registers                            |   51 |     0 |     41600 |  0.12 |
+|   Register driven from within the Slice    |   40 |       |           |       |
+|   Register driven from outside the Slice   |   11 |       |           |       |
+|     LUT in front of the register is unused |    0 |       |           |       |
+|     LUT in front of the register is used   |   11 |       |           |       |
+| Unique Control Sets                        |    6 |       |      8150 |  0.07 |
++--------------------------------------------+------+-------+-----------+-------+
+* Note: Available Control Sets calculated as Slice Registers / 8, Review the Control Sets Report for more information regarding control sets.
+>>>>>>> Stashed changes:Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_utilization_placed.rpt
 
 
 3. Memory
@@ -176,6 +220,7 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
+<<<<<<< Updated upstream:Optimized/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_utilization_placed.rpt
 | FDRE     |   37 |        Flop & Latch |
 | LUT5     |   21 |                 LUT |
 | LUT4     |   21 |                 LUT |
@@ -186,6 +231,19 @@ Table of Contents
 | LUT3     |    5 |                 LUT |
 | IBUF     |    2 |                  IO |
 | LUT2     |    1 |                 LUT |
+=======
+| FDRE     |   51 |        Flop & Latch |
+| LUT6     |   28 |                 LUT |
+| LUT5     |   28 |                 LUT |
+| LUT4     |   19 |                 LUT |
+| OBUF     |   17 |                  IO |
+| LUT2     |   14 |                 LUT |
+| LUT3     |   10 |                 LUT |
+| CARRY4   |   10 |          CarryLogic |
+| MUXF7    |    3 |               MuxFx |
+| IBUF     |    2 |                  IO |
+| LUT1     |    1 |                 LUT |
+>>>>>>> Stashed changes:Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_utilization_placed.rpt
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+
 

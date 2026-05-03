@@ -51,16 +51,54 @@ end Program_Rom;
 --        "000000000000",  -- Addr 6: NOP           (000 000 000 000)
 --        "110000000101"   -- Addr 7: JZR  R0, 5   (110 000 000 101) safety loop
 --    );
+--    signal program_rom : rom_type := (
+--        -- multiply
+--        "100001000011",  -- Addr 0: MOVI R1, 3    (100 001 000 0011)
+--        "100010000010",  -- Addr 1: MOVI R2, 2    (100 010 000 0010)
+--        "010001010000",  -- Addr 2: MUL  R1, R2   (010 001 010 000) R1=6,
+--        "000111001000", --saving R1 to R7
+--      );
+--    signal program_rom : rom_type := (
+--        -- addition
+--        "100001000011",  -- Addr 0: MOVI R1, 3    (100 001 000 0011)
+--        "100010000010",  -- Addr 1: MOVI R2, 2    (100 010 000 0010)
+--        "000001010000",  -- Addr 2: ADD  R1, R2   (010 001 010 000) R1=6,
+--        "000111001000" --saving R1 to R7
+--      );
+--    signal program_rom : rom_type := (
+--        -- compare
+--        "100001000011",  -- Addr 0: MOVI R1, 3    (100 001 000 0011)
+--        "100010000010",  -- Addr 1: MOVI R2, 2    (100 010 000 0010)
+--        "011001010000",  -- Addr 2: MUL  R1, R2   (010 001 010 000) R1=6,
+--        "000111001000" --saving R1 to R7
+--      );
+--    signal program_rom : rom_type := (
+--        -- sub 
+--        "100001000011",  -- Addr 0: MOVI R1, 3    (100 001 000 0011)
+--        "100010000010",  -- Addr 1: MOVI R2, 2    (100 010 000 0010)
+--        "001001010000",  -- Addr 2: SUB  R1, R2   (010 001 010 000) R1=6,
+--        "000111001000" --saving R1 to R7
+--      );
+--    signal program_rom : rom_type := (
+--        -- multiply
+--        "100001000011",  -- Addr 0: MOVI R1, 3    (100 001 000 0011)
+--        "100010000010",  -- Addr 1: MOVI R2, 2    (100 010 000 0010)
+--        "010001010000",  -- Addr 2: MUL  R1, R2   (010 001 010 000) R1=6,
+--        "000111001000" --saving R1 to R7
+--      );
     signal program_rom : rom_type := (
-        "100001000111",  -- Addr 0: MOVI R1, 3    (100 001 000 0011)
-        "100010000010",  -- Addr 1: MOVI R2, 2    (100 010 000 0010)
-        "010001010000",  -- Addr 2: MUL  R1, R2   (010 001 010 000) R1=6
-        "000111001000",  -- Addr 3: ADD  R7, R1   (000 111 001 000) R7=6 (shown on 7-seg)
-        "011001010000",  -- Addr 4: CMP  R1, R2   (011 001 010 000) Zero=0, OV=1
-        "110000000101",  -- Addr 5: JZR  R0, 5   (110 000 000 101) R0==0 -> loop to 5
-        "000000000000",  -- Addr 6: NOP           (000 000 000 000)
-        "110000000101"   -- Addr 7: JZR  R0, 5   (110 000 000 101) safety loop
+        "100001000110",  -- Addr 0: MOVI R1, 6
+        "100010000010",  -- Addr 1: MOVI R2, 2
+        "101001010000",  -- Addr 2: DIV  R1, R2
+        "000111001000",  -- Addr 3: ADD  R7, R1
+        "110000000100",  -- Addr 4: JZR  R0, 4 (Loop forever)
+        others => "000000000000" 
     );
+    
+    
+    
+
+    
 begin
     instruction_bus <= program_rom(to_integer(unsigned(memory_select)));
 end Behavioral;

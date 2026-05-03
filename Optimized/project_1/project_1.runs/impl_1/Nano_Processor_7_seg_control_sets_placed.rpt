@@ -1,8 +1,14 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
+<<<<<<< Updated upstream:Optimized/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_control_sets_placed.rpt
 | Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
 | Date         : Thu Aug 18 08:10:07 2022
 | Host         : Akmal-Computer running 64-bit major release  (build 9200)
+=======
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun May  3 11:28:50 2026
+| Host         : DESKTOP-FT0TDHF running 64-bit major release  (build 9200)
+>>>>>>> Stashed changes:Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_control_sets_placed.rpt
 | Command      : report_control_sets -verbose -file Nano_Processor_7_seg_control_sets_placed.rpt
 | Design       : Nano_Processor_7_seg
 | Device       : xc7a35t
@@ -23,8 +29,13 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
+<<<<<<< Updated upstream:Optimized/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_control_sets_placed.rpt
 | Number of unique control sets                            |     7 |
 | Unused register locations in slices containing registers |     6 |
+=======
+| Number of unique control sets                            |     6 |
+| Unused register locations in slices containing registers |    21 |
+>>>>>>> Stashed changes:Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_control_sets_placed.rpt
 +----------------------------------------------------------+-------+
 
 
@@ -34,8 +45,14 @@ Table of Contents
 +--------+--------------+
 | Fanout | Control Sets |
 +--------+--------------+
+<<<<<<< Updated upstream:Optimized/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_control_sets_placed.rpt
 |      6 |            2 |
 |      8 |            4 |
+=======
+|      3 |            2 |
+|      4 |            2 |
+|      6 |            1 |
+>>>>>>> Stashed changes:Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_control_sets_placed.rpt
 |    16+ |            1 |
 +--------+--------------+
 
@@ -51,13 +68,18 @@ Table of Contents
 | No           | Yes                   | No                     |              62 |            8 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
+<<<<<<< Updated upstream:Optimized/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_control_sets_placed.rpt
 | Yes          | Yes                   | No                     |               0 |            0 |
+=======
+| Yes          | Yes                   | No                     |              14 |            6 |
+>>>>>>> Stashed changes:Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_control_sets_placed.rpt
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 4. Detailed Control Set Information
 -----------------------------------
 
+<<<<<<< Updated upstream:Optimized/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_control_sets_placed.rpt
 +-----------------------------------+---------------+------------------------------------------------+------------------+----------------+
 |            Clock Signal           | Enable Signal |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
 +-----------------------------------+---------------+------------------------------------------------+------------------+----------------+
@@ -69,5 +91,17 @@ Table of Contents
 |  NanoProcessor/slow_clock_0/Q_reg |               | NanoProcessor/Program_Counter_0/D_FF_1/Q_reg_3 |                1 |              8 |
 |  Clk_IBUF_BUFG                    |               | NanoProcessor/slow_clock_0/count[31]_i_1_n_0   |                8 |             62 |
 +-----------------------------------+---------------+------------------------------------------------+------------------+----------------+
+=======
++-------------------------------------------+--------------------------------------------+----------------------------------------------+------------------+----------------+
+|                Clock Signal               |                Enable Signal               |               Set/Reset Signal               | Slice Load Count | Bel Load Count |
++-------------------------------------------+--------------------------------------------+----------------------------------------------+------------------+----------------+
+|  NanoProcessor/slow_clock_0/Clk_out_reg_0 |                                            |                                              |                1 |              3 |
+|  Clk_IBUF_BUFG                            |                                            |                                              |                2 |              3 |
+|  NanoProcessor/slow_clock_0/Clk_out_reg_0 | NanoProcessor/Program_Counter_0/D_FF_0/EN2 | Reset_IBUF                                   |                1 |              4 |
+|  NanoProcessor/slow_clock_0/Clk_out_reg_0 | NanoProcessor/Program_Counter_0/D_FF_0/EN1 | Reset_IBUF                                   |                1 |              4 |
+|  NanoProcessor/slow_clock_0/Clk_out_reg_0 | NanoProcessor/Program_Counter_0/D_FF_1/EN7 | Reset_IBUF                                   |                4 |              6 |
+|  Clk_IBUF_BUFG                            |                                            | NanoProcessor/slow_clock_0/count[31]_i_1_n_0 |                8 |             31 |
++-------------------------------------------+--------------------------------------------+----------------------------------------------+------------------+----------------+
+>>>>>>> Stashed changes:Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_control_sets_placed.rpt
 
 

@@ -15,10 +15,11 @@
 --     010 = MUL  Rd, Rs
 --     011 = CMP  Rd, Rs  (no writeback -- RegEn forced to "000")
 --     100 = MOVI Rd, Imm[3:0]
+--     101 = DIV  Rd, Rs
 --     110 = JZR  Rd, Addr[2:0]  (no writeback -- RegEn forced to "000")
 --
 --   Register fields: Rd = Ins[8:6],  Rs = Ins[5:3]
---   AluOp = Ins[10:9]  (00=ADD, 01=SUB, 10=MUL, 11=CMP)
+--   AluOp = Ins(11 downto 9)  (000=ADD, 001=SUB, 010=MUL, 011=CMP, 101=DIV)
 -- 
 -- Revision:
 -- Revision 0.02 - 3-bit opcode, MUL + CMP added
@@ -37,7 +38,7 @@ entity Instruction_Decoder is
            ImVal      : out STD_LOGIC_VECTOR (3 downto 0);
            RegSel1    : out STD_LOGIC_VECTOR (2 downto 0);
            RegSel2    : out STD_LOGIC_VECTOR (2 downto 0);
-           AluOp      : out STD_LOGIC_VECTOR (1 downto 0);
+           AluOp      : out STD_LOGIC_VECTOR (2 downto 0);
            Jmp        : out STD_LOGIC;
            AddressJmp : out STD_LOGIC_VECTOR (2 downto 0));
 end Instruction_Decoder;
@@ -61,9 +62,9 @@ ImVal <= Ins(3 downto 0);
 RegSel1 <= Ins(8 downto 6);   -- Rd (destination / first operand)
 RegSel2 <= Ins(5 downto 3);   -- Rs (second operand)
 
--- AluOp: bits [10:9] select ALU function (valid when opcode MSB = 0)
--- 00 = ADD,  01 = SUB,  10 = MUL,  11 = CMP
-AluOp <= Ins(10 downto 9);
+-- AluOp: bits [11:9] select ALU function
+-- 000=ADD, 001=SUB, 010=MUL, 011=CMP, 101=DIV
+AluOp <= Ins(11 downto 9);
 
 -- Jump address in lower 3 bits
 AddressJmp <= Ins(2 downto 0);

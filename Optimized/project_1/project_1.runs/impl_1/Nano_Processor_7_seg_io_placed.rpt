@@ -1,8 +1,14 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
+<<<<<<< Updated upstream:Optimized/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_io_placed.rpt
 | Tool Version              : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
 | Date                      : Thu Aug 18 08:10:07 2022
 | Host                      : Akmal-Computer running 64-bit major release  (build 9200)
+=======
+| Tool Version              : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date                      : Sun May  3 11:28:50 2026
+| Host                      : DESKTOP-FT0TDHF running 64-bit major release  (build 9200)
+>>>>>>> Stashed changes:Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Nano_Processor_7_seg_io_placed.rpt
 | Command                   : report_io -file Nano_Processor_7_seg_io_placed.rpt
 | Design                    : Nano_Processor_7_seg
 | Device                    : xc7a35t
