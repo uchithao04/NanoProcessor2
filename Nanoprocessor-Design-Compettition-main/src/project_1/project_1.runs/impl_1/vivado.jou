@@ -1,5 +1,4 @@
 #-----------------------------------------------------------
-<<<<<<< Updated upstream
 # Vivado v2025.2 (64-bit)
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
@@ -21,16 +20,5 @@
 # Swap memory        : 30044 MB
 # Total Virtual      : 46401 MB
 # Available Virtual  : 5787 MB
-=======
-# Vivado v2018.3 (64-bit)
-# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
-# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Sun May  3 11:28:19 2026
-# Process ID: 28948
-# Current directory: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1
-# Command line: vivado.exe -log Nano_Processor_7_seg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Nano_Processor_7_seg.tcl -notrace
-# Log file: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/Nano_Processor_7_seg.vdi
-# Journal file: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1\vivado.jou
->>>>>>> Stashed changes
 #-----------------------------------------------------------
 source Tri_State_Buffer.tcl -notrace

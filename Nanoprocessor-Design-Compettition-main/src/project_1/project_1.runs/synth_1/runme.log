@@ -18,7 +18,6 @@ Command: synth_design -top Tri_State_Buffer -part xc7a35tcpg236-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
-<<<<<<< Updated upstream
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
@@ -30,146 +29,21 @@ INFO: [Synth 8-638] synthesizing module 'Tri_State_Buffer' [C:/Users/VICTUS/OneD
 INFO: [Synth 8-256] done synthesizing module 'Tri_State_Buffer' (0#1) [C:/Users/VICTUS/OneDrive/Desktop/COADD/Nanoprocessor-Design/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/new/Tri_State_Buffer.vhd:40]
 ---------------------------------------------------------------------------------
 Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1381.668 ; gain = 657.855
-=======
-INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 7644 
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 437.719 ; gain = 98.672
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Nano_Processor_7_seg' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor_7_seg.vhd:44]
-INFO: [Synth 8-3491] module 'Nano_Processor' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:14' bound to instance 'NanoProcessor' of component 'Nano_Processor' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor_7_seg.vhd:62]
-INFO: [Synth 8-638] synthesizing module 'Nano_Processor' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:22]
-INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Slow_Clk.vhd:34' bound to instance 'slow_clock_0' of component 'Slow_Clk' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:176]
-INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
-INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (1#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
-INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Instruction_Decoder.vhd:33' bound to instance 'Instruction_Decoder_0' of component 'Instruction_Decoder' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:180]
-INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Instruction_Decoder.vhd:46]
-INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder' (2#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Instruction_Decoder.vhd:46]
-INFO: [Synth 8-3491] module 'Reg_Bank' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_Bank.vhd:34' bound to instance 'Reg_Bank_0' of component 'Reg_Bank' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:192]
-INFO: [Synth 8-638] synthesizing module 'Reg_Bank' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_Bank.vhd:49]
-INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder' of component 'Decoder_3_to_8' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_Bank.vhd:75]
-INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:46]
-INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (3#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:46]
-INFO: [Synth 8-3491] module 'Reg_4' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:34' bound to instance 'Reg_4_0' of component 'Reg_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_Bank.vhd:87]
-INFO: [Synth 8-638] synthesizing module 'Reg_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:42]
-INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_0' of component 'Reg' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:54]
-INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg.vhd:42]
-INFO: [Synth 8-256] done synthesizing module 'Reg' (4#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg.vhd:42]
-INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_1' of component 'Reg' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:63]
-INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_2' of component 'Reg' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:72]
-INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_3' of component 'Reg' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:81]
-INFO: [Synth 8-256] done synthesizing module 'Reg_4' (5#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:42]
-INFO: [Synth 8-3491] module 'Reg_4' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:34' bound to instance 'Reg_4_1' of component 'Reg_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_Bank.vhd:95]
-INFO: [Synth 8-3491] module 'Reg_4' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:34' bound to instance 'Reg_4_2' of component 'Reg_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_Bank.vhd:103]
-INFO: [Synth 8-3491] module 'Reg_4' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:34' bound to instance 'Reg_4_3' of component 'Reg_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_Bank.vhd:111]
-INFO: [Synth 8-3491] module 'Reg_4' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:34' bound to instance 'Reg_4_4' of component 'Reg_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_Bank.vhd:119]
-INFO: [Synth 8-3491] module 'Reg_4' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:34' bound to instance 'Reg_4_5' of component 'Reg_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_Bank.vhd:127]
-INFO: [Synth 8-3491] module 'Reg_4' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:34' bound to instance 'Reg_4_6' of component 'Reg_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_Bank.vhd:135]
-INFO: [Synth 8-3491] module 'Reg_4' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd:34' bound to instance 'Reg_4_7' of component 'Reg_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_Bank.vhd:143]
-INFO: [Synth 8-256] done synthesizing module 'Reg_Bank' (6#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_Bank.vhd:49]
-INFO: [Synth 8-3491] module 'Mux_4_8_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_8_to_1.vhd:34' bound to instance 'Mux_4_8_to_1_1' of component 'Mux_4_8_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:206]
-INFO: [Synth 8-638] synthesizing module 'Mux_4_8_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_8_to_1.vhd:47]
-INFO: [Synth 8-3491] module 'Mux_4_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:67' bound to instance 'Mux_4_2_to_1_0' of component 'Mux_4_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_8_to_1.vhd:60]
-INFO: [Synth 8-638] synthesizing module 'Mux_4_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:74]
-INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_0' of component 'Mux_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:85]
-INFO: [Synth 8-638] synthesizing module 'Mux_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_2_to_1.vhd:41]
-INFO: [Synth 8-256] done synthesizing module 'Mux_2_to_1' (7#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_2_to_1.vhd:41]
-INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_1' of component 'Mux_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:93]
-INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_2' of component 'Mux_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:101]
-INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_3' of component 'Mux_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:110]
-INFO: [Synth 8-256] done synthesizing module 'Mux_4_2_to_1' (8#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:74]
-INFO: [Synth 8-3491] module 'Mux_4_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:67' bound to instance 'Mux_4_2_to_1_1' of component 'Mux_4_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_8_to_1.vhd:68]
-INFO: [Synth 8-3491] module 'Mux_4_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:67' bound to instance 'Mux_4_2_to_1_2' of component 'Mux_4_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_8_to_1.vhd:76]
-INFO: [Synth 8-3491] module 'Mux_4_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:67' bound to instance 'Mux_4_2_to_1_3' of component 'Mux_4_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_8_to_1.vhd:84]
-INFO: [Synth 8-3491] module 'Mux_4_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:67' bound to instance 'Mux_4_2_to_1_4' of component 'Mux_4_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_8_to_1.vhd:92]
-INFO: [Synth 8-3491] module 'Mux_4_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:67' bound to instance 'Mux_4_2_to_1_5' of component 'Mux_4_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_8_to_1.vhd:100]
-INFO: [Synth 8-3491] module 'Mux_4_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:67' bound to instance 'Mux_4_2_to_1_6' of component 'Mux_4_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_8_to_1.vhd:108]
-INFO: [Synth 8-256] done synthesizing module 'Mux_4_8_to_1' (9#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_8_to_1.vhd:47]
-INFO: [Synth 8-3491] module 'Mux_4_8_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_8_to_1.vhd:34' bound to instance 'Mux_4_8_to_1_2' of component 'Mux_4_8_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:212]
-INFO: [Synth 8-3491] module 'Add_Sub_4' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Add_Sub_4.vhd:34' bound to instance 'Add_Sub_4_0' of component 'Add_Sub_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:218]
-INFO: [Synth 8-638] synthesizing module 'Add_Sub_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Add_Sub_4.vhd:43]
-INFO: [Synth 8-3491] module 'RCA_4' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:35' bound to instance 'RCA' of component 'RCA_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Add_Sub_4.vhd:65]
-INFO: [Synth 8-638] synthesizing module 'RCA_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:45]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:58]
-INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:42]
-INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/HA.vhd:35' bound to instance 'HA_0' of component 'HA' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:56]
-INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/HA.vhd:42]
-INFO: [Synth 8-256] done synthesizing module 'HA' (10#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/HA.vhd:42]
-INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/HA.vhd:35' bound to instance 'HA_1' of component 'HA' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:62]
-INFO: [Synth 8-256] done synthesizing module 'FA' (11#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:42]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:67]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:76]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_3' of component 'FA' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:84]
-INFO: [Synth 8-256] done synthesizing module 'RCA_4' (12#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd:45]
-INFO: [Synth 8-256] done synthesizing module 'Add_Sub_4' (13#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Add_Sub_4.vhd:43]
-INFO: [Synth 8-3491] module 'Mul_4' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mul_4.vhd:13' bound to instance 'Mul_4_0' of component 'Mul_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:226]
-INFO: [Synth 8-638] synthesizing module 'Mul_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mul_4.vhd:21]
-INFO: [Synth 8-256] done synthesizing module 'Mul_4' (14#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mul_4.vhd:21]
-INFO: [Synth 8-3491] module 'Comp_4' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Comp_4.vhd:13' bound to instance 'Comp_4_0' of component 'Comp_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:233]
-INFO: [Synth 8-638] synthesizing module 'Comp_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Comp_4.vhd:21]
-INFO: [Synth 8-256] done synthesizing module 'Comp_4' (15#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Comp_4.vhd:21]
-INFO: [Synth 8-3491] module 'Div_4' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Div_4.vhd:13' bound to instance 'Div_4_0' of component 'Div_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:240]
-INFO: [Synth 8-638] synthesizing module 'Div_4' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Div_4.vhd:21]
-INFO: [Synth 8-256] done synthesizing module 'Div_4' (16#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Div_4.vhd:21]
-INFO: [Synth 8-3491] module 'Mux_4_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd:67' bound to instance 'Mux_4_2_to_1_0' of component 'Mux_4_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:274]
-INFO: [Synth 8-3491] module 'Adder_3' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Adder_3.vhd:35' bound to instance 'Adder_3_0' of component 'Adder_3' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:280]
-INFO: [Synth 8-638] synthesizing module 'Adder_3' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Adder_3.vhd:42]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Adder_3.vhd:55]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Adder_3.vhd:64]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Adder_3.vhd:73]
-INFO: [Synth 8-256] done synthesizing module 'Adder_3' (17#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Adder_3.vhd:42]
-INFO: [Synth 8-3491] module 'Mux_3_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_3_2_to_1.vhd:34' bound to instance 'Mux_3_2_to_1_0' of component 'Mux_3_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:284]
-INFO: [Synth 8-638] synthesizing module 'Mux_3_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_3_2_to_1.vhd:41]
-INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_0' of component 'Mux_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_3_2_to_1.vhd:52]
-INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_1' of component 'Mux_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_3_2_to_1.vhd:60]
-INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_2' of component 'Mux_2_to_1' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_3_2_to_1.vhd:68]
-INFO: [Synth 8-256] done synthesizing module 'Mux_3_2_to_1' (18#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_3_2_to_1.vhd:41]
-INFO: [Synth 8-3491] module 'Program_Counter' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Program_Counter.vhd:34' bound to instance 'Program_Counter_0' of component 'Program_Counter' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:290]
-INFO: [Synth 8-638] synthesizing module 'Program_Counter' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Program_Counter.vhd:41]
-INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_0' of component 'D_FF' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Program_Counter.vhd:52]
-INFO: [Synth 8-638] synthesizing module 'D_FF' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:41]
-INFO: [Synth 8-256] done synthesizing module 'D_FF' (19#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:41]
-INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_1' of component 'D_FF' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Program_Counter.vhd:60]
-INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_2' of component 'D_FF' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Program_Counter.vhd:68]
-INFO: [Synth 8-256] done synthesizing module 'Program_Counter' (20#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Program_Counter.vhd:41]
-INFO: [Synth 8-3491] module 'Program_Rom' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Program_Rom.vhd:37' bound to instance 'ProgramROM_0' of component 'Program_Rom' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:296]
-INFO: [Synth 8-638] synthesizing module 'Program_Rom' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Program_Rom.vhd:42]
-INFO: [Synth 8-256] done synthesizing module 'Program_Rom' (21#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Program_Rom.vhd:42]
-INFO: [Synth 8-256] done synthesizing module 'Nano_Processor' (22#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd:22]
-INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/LUT_16_7.vhd:34' bound to instance 'LUT' of component 'LUT_16_7' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor_7_seg.vhd:70]
-INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/LUT_16_7.vhd:39]
-INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (23#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/LUT_16_7.vhd:39]
-INFO: [Synth 8-256] done synthesizing module 'Nano_Processor_7_seg' (24#1) [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor_7_seg.vhd:44]
-WARNING: [Synth 8-3917] design Nano_Processor_7_seg has port Anode[3] driven by constant 1
-WARNING: [Synth 8-3917] design Nano_Processor_7_seg has port Anode[2] driven by constant 1
-WARNING: [Synth 8-3917] design Nano_Processor_7_seg has port Anode[1] driven by constant 1
-WARNING: [Synth 8-3917] design Nano_Processor_7_seg has port Anode[0] driven by constant 0
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 493.945 ; gain = 154.898
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< Updated upstream
 Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1381.668 ; gain = 657.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1381.668 ; gain = 657.855
-=======
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 493.945 ; gain = 154.898
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 493.945 ; gain = 154.898
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1381.668 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-<<<<<<< Updated upstream
 Parsing XDC File [C:/Users/VICTUS/OneDrive/Desktop/COADD/Nanoprocessor-Design/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
 WARNING: [Vivado 12-584] No ports matched 'Clk'. [C:/Users/VICTUS/OneDrive/Desktop/COADD/Nanoprocessor-Design/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:7]
 CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/VICTUS/OneDrive/Desktop/COADD/Nanoprocessor-Design/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc:7]
@@ -298,149 +172,32 @@ No Unisim elements were transformed.
 Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1381.668 ; gain = 0.000
 ---------------------------------------------------------------------------------
 Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1381.668 ; gain = 657.855
-=======
-Parsing XDC File [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
-Finished Parsing XDC File [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Nano_Processor_7_seg_propImpl.xdc].
-Resolution: To avoid this warning, move constraints listed in [.Xil/Nano_Processor_7_seg_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 827.426 ; gain = 0.000
-Completed Processing XDC Constraints
-
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 827.480 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 827.480 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 827.480 ; gain = 0.000
----------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 827.480 ; gain = 488.434
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-<<<<<<< Updated upstream
 Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1381.668 ; gain = 657.855
-=======
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 827.480 ; gain = 488.434
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< Updated upstream
 Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1381.668 ; gain = 657.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1381.668 ; gain = 657.855
-=======
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 827.480 ; gain = 488.434
----------------------------------------------------------------------------------
-INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5544] ROM "Overflow" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "Zero" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "program_rom" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "sevenSegment_ROM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 827.480 ; gain = 488.434
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
-<<<<<<< Updated upstream
-=======
-+---Adders : 
-	   2 Input     32 Bit       Adders := 1     
-	   4 Input      8 Bit       Adders := 1     
-+---XORs : 
-	   2 Input      1 Bit         XORs := 19    
-+---Registers : 
-	               32 Bit    Registers := 1     
-	                1 Bit    Registers := 37    
-+---Muxes : 
-	   2 Input     32 Bit        Muxes := 1     
-	   9 Input     12 Bit        Muxes := 1     
-	   2 Input      8 Bit        Muxes := 3     
-	  17 Input      7 Bit        Muxes := 1     
-	   2 Input      4 Bit        Muxes := 2     
-	   2 Input      3 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 3     
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< Updated upstream
-=======
-Start RTL Hierarchical Component Statistics 
----------------------------------------------------------------------------------
-Hierarchical RTL Component report 
-Module Slow_Clk 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 1     
-+---Registers : 
-	               32 Bit    Registers := 1     
-	                1 Bit    Registers := 2     
-+---Muxes : 
-	   2 Input     32 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1     
-Module Instruction_Decoder 
-Detailed RTL Component Info : 
-+---Muxes : 
-	   2 Input      3 Bit        Muxes := 2     
-Module Reg 
-Detailed RTL Component Info : 
-+---Registers : 
-	                1 Bit    Registers := 1     
-Module HA 
-Detailed RTL Component Info : 
-+---XORs : 
-	   2 Input      1 Bit         XORs := 1     
-Module RCA_4 
-Detailed RTL Component Info : 
-+---XORs : 
-	   2 Input      1 Bit         XORs := 1     
-Module Add_Sub_4 
-Detailed RTL Component Info : 
-+---XORs : 
-	   2 Input      1 Bit         XORs := 4     
-Module Mul_4 
-Detailed RTL Component Info : 
-+---Adders : 
-	   4 Input      8 Bit       Adders := 1     
-+---Muxes : 
-	   2 Input      8 Bit        Muxes := 3     
-	   2 Input      4 Bit        Muxes := 1     
-Module Div_4 
-Detailed RTL Component Info : 
-+---Muxes : 
-	   2 Input      4 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 2     
-Module D_FF 
-Detailed RTL Component Info : 
-+---Registers : 
-	                1 Bit    Registers := 1     
-Module Program_Rom 
-Detailed RTL Component Info : 
-+---Muxes : 
-	   9 Input     12 Bit        Muxes := 1     
-Module LUT_16_7 
-Detailed RTL Component Info : 
-+---Muxes : 
-	  17 Input      7 Bit        Muxes := 1     
----------------------------------------------------------------------------------
-Finished RTL Hierarchical Component Statistics
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
->>>>>>> Stashed changes
 Start Part Resource Summary
 ---------------------------------------------------------------------------------
 Part Resources:
@@ -453,75 +210,21 @@ No constraint files found.
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-<<<<<<< Updated upstream
 ---------------------------------------------------------------------------------
 Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 1392.180 ; gain = 668.367
-=======
-Warning: Parallel synthesis criteria is not met 
-INFO: [Synth 8-4471] merging register 'NanoProcessor/Reg_Bank_0/Reg_4_0/Reg_1/Q_reg' into 'NanoProcessor/Reg_Bank_0/Reg_4_0/Reg_0/Q_reg' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg.vhd:49]
-INFO: [Synth 8-4471] merging register 'NanoProcessor/Reg_Bank_0/Reg_4_0/Reg_2/Q_reg' into 'NanoProcessor/Reg_Bank_0/Reg_4_0/Reg_0/Q_reg' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg.vhd:49]
-INFO: [Synth 8-4471] merging register 'NanoProcessor/Reg_Bank_0/Reg_4_0/Reg_3/Q_reg' into 'NanoProcessor/Reg_Bank_0/Reg_4_0/Reg_0/Q_reg' [C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg.vhd:49]
-INFO: [Synth 8-5544] ROM "NanoProcessor/Div_4_0/Overflow" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5545] ROM "NanoProcessor/slow_clock_0/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "NanoProcessor/slow_clock_0/clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-WARNING: [Synth 8-3917] design Nano_Processor_7_seg has port Anode[3] driven by constant 1
-WARNING: [Synth 8-3917] design Nano_Processor_7_seg has port Anode[2] driven by constant 1
-WARNING: [Synth 8-3917] design Nano_Processor_7_seg has port Anode[1] driven by constant 1
-WARNING: [Synth 8-3917] design Nano_Processor_7_seg has port Anode[0] driven by constant 0
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\NanoProcessor/Reg_Bank_0/Reg_4_0/Reg_0/Q_reg )
----------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 827.480 ; gain = 488.434
----------------------------------------------------------------------------------
-
-Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
----------------------------------------------------------------------------------
-Start Applying XDC Timing Constraints
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 827.480 ; gain = 488.434
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< Updated upstream
 Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 1392.180 ; gain = 668.367
-=======
-Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 837.406 ; gain = 498.359
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-<<<<<<< Updated upstream
 ---------------------------------------------------------------------------------
 Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 1401.719 ; gain = 677.906
-=======
-INFO: [Synth 8-3886] merging instance 'NanoProcessor/Reg_Bank_0/Reg_4_6/Reg_2/Q_reg' (FDRE) to 'NanoProcessor/Reg_Bank_0/Reg_4_3/Reg_2/Q_reg'
-INFO: [Synth 8-3886] merging instance 'NanoProcessor/Reg_Bank_0/Reg_4_4/Reg_2/Q_reg' (FDRE) to 'NanoProcessor/Reg_Bank_0/Reg_4_3/Reg_2/Q_reg'
-INFO: [Synth 8-3886] merging instance 'NanoProcessor/Reg_Bank_0/Reg_4_5/Reg_2/Q_reg' (FDRE) to 'NanoProcessor/Reg_Bank_0/Reg_4_3/Reg_2/Q_reg'
-INFO: [Synth 8-3886] merging instance 'NanoProcessor/Reg_Bank_0/Reg_4_4/Reg_1/Q_reg' (FDRE) to 'NanoProcessor/Reg_Bank_0/Reg_4_6/Reg_1/Q_reg'
-INFO: [Synth 8-3886] merging instance 'NanoProcessor/Reg_Bank_0/Reg_4_5/Reg_1/Q_reg' (FDRE) to 'NanoProcessor/Reg_Bank_0/Reg_4_6/Reg_1/Q_reg'
-INFO: [Synth 8-3886] merging instance 'NanoProcessor/Reg_Bank_0/Reg_4_6/Reg_1/Q_reg' (FDRE) to 'NanoProcessor/Reg_Bank_0/Reg_4_3/Reg_1/Q_reg'
-INFO: [Synth 8-3886] merging instance 'NanoProcessor/Reg_Bank_0/Reg_4_5/Reg_3/Q_reg' (FDRE) to 'NanoProcessor/Reg_Bank_0/Reg_4_6/Reg_3/Q_reg'
-INFO: [Synth 8-3886] merging instance 'NanoProcessor/Reg_Bank_0/Reg_4_4/Reg_3/Q_reg' (FDRE) to 'NanoProcessor/Reg_Bank_0/Reg_4_6/Reg_3/Q_reg'
-INFO: [Synth 8-3886] merging instance 'NanoProcessor/Reg_Bank_0/Reg_4_6/Reg_3/Q_reg' (FDRE) to 'NanoProcessor/Reg_Bank_0/Reg_4_3/Reg_3/Q_reg'
-INFO: [Synth 8-3886] merging instance 'NanoProcessor/Reg_Bank_0/Reg_4_4/Reg_0/Q_reg' (FDRE) to 'NanoProcessor/Reg_Bank_0/Reg_4_3/Reg_0/Q_reg'
-INFO: [Synth 8-3886] merging instance 'NanoProcessor/Reg_Bank_0/Reg_4_5/Reg_0/Q_reg' (FDRE) to 'NanoProcessor/Reg_Bank_0/Reg_4_3/Reg_0/Q_reg'
-INFO: [Synth 8-3886] merging instance 'NanoProcessor/Reg_Bank_0/Reg_4_6/Reg_0/Q_reg' (FDRE) to 'NanoProcessor/Reg_Bank_0/Reg_4_3/Reg_0/Q_reg'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\NanoProcessor/Reg_Bank_0/Reg_4_3/Reg_1/Q_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\NanoProcessor/Reg_Bank_0/Reg_4_3/Reg_0/Q_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\NanoProcessor/Reg_Bank_0/Reg_4_3/Reg_2/Q_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\NanoProcessor/Reg_Bank_0/Reg_4_3/Reg_3/Q_reg )
----------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 842.492 ; gain = 503.445
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -539,61 +242,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< Updated upstream
 Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1651.641 ; gain = 927.828
-=======
-Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 842.492 ; gain = 503.445
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< Updated upstream
 Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1651.641 ; gain = 927.828
-=======
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 842.492 ; gain = 503.445
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< Updated upstream
 Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1651.641 ; gain = 927.828
-=======
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 842.492 ; gain = 503.445
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< Updated upstream
 Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1651.641 ; gain = 927.828
-=======
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 842.492 ; gain = 503.445
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< Updated upstream
 Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1651.641 ; gain = 927.828
-=======
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 842.492 ; gain = 503.445
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< Updated upstream
 Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1651.641 ; gain = 927.828
-=======
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 842.492 ; gain = 503.445
->>>>>>> Stashed changes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -606,7 +285,6 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-<<<<<<< Updated upstream
 +------+------+------+
 |      |Cell  |Count |
 +------+------+------+
@@ -625,72 +303,11 @@ Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1761.664 ; gain = 0.000
-=======
-+------+-------+------+
-|      |Cell   |Count |
-+------+-------+------+
-|1     |BUFG   |     1|
-|2     |CARRY4 |    10|
-|3     |LUT1   |     1|
-|4     |LUT2   |    14|
-|5     |LUT3   |    10|
-|6     |LUT4   |    19|
-|7     |LUT5   |    28|
-|8     |LUT6   |    28|
-|9     |MUXF7  |     3|
-|10    |FDRE   |    49|
-|11    |IBUF   |     2|
-|12    |OBUF   |    17|
-+------+-------+------+
-
-Report Instance Areas: 
-+------+----------------------+----------------+------+
-|      |Instance              |Module          |Cells |
-+------+----------------------+----------------+------+
-|1     |top                   |                |   182|
-|2     |  NanoProcessor       |Nano_Processor  |   162|
-|3     |    Mul_4_0           |Mul_4           |     3|
-|4     |    Program_Counter_0 |Program_Counter |    78|
-|5     |      D_FF_0          |D_FF            |    73|
-|6     |      D_FF_1          |D_FF_14         |     2|
-|7     |      D_FF_2          |D_FF_15         |     3|
-|8     |    Reg_Bank_0        |Reg_Bank        |    27|
-|9     |      Reg_4_1         |Reg_4           |     4|
-|10    |        Reg_0         |Reg_10          |     1|
-|11    |        Reg_1         |Reg_11          |     1|
-|12    |        Reg_2         |Reg_12          |     1|
-|13    |        Reg_3         |Reg_13          |     1|
-|14    |      Reg_4_2         |Reg_4_0         |     4|
-|15    |        Reg_0         |Reg_6           |     1|
-|16    |        Reg_1         |Reg_7           |     1|
-|17    |        Reg_2         |Reg_8           |     1|
-|18    |        Reg_3         |Reg_9           |     1|
-|19    |      Reg_4_7         |Reg_4_1         |    19|
-|20    |        Reg_0         |Reg             |     1|
-|21    |        Reg_1         |Reg_2           |     1|
-|22    |        Reg_2         |Reg_3           |     5|
-|23    |        Reg_3         |Reg_5           |    12|
-|24    |    slow_clock_0      |Slow_Clk        |    54|
-+------+----------------------+----------------+------+
----------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 842.492 ; gain = 503.445
----------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 842.492 ; gain = 169.910
-Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 842.492 ; gain = 503.445
-INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 842.492 ; gain = 0.000
->>>>>>> Stashed changes
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 Synth Design complete | Checksum: 18dc66be
 INFO: [Common 17-83] Releasing license: Synthesis
-<<<<<<< Updated upstream
 14 Infos, 39 Warnings, 39 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
 synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 1761.664 ; gain = 1233.996
@@ -699,14 +316,3 @@ Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memo
 INFO: [Common 17-1381] The checkpoint 'C:/Users/VICTUS/OneDrive/Desktop/COADD/Nanoprocessor-Design/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/synth_1/Tri_State_Buffer.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file Tri_State_Buffer_utilization_synth.rpt -pb Tri_State_Buffer_utilization_synth.pb
 INFO: [Common 17-206] Exiting Vivado at Fri May  1 22:09:46 2026...
-=======
-145 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 842.492 ; gain = 516.777
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 842.492 ; gain = 0.000
-WARNING: [Constraints 18-5210] No constraints selected for write.
-Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/synth_1/Nano_Processor_7_seg.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file Nano_Processor_7_seg_utilization_synth.rpt -pb Nano_Processor_7_seg_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun May  3 11:28:06 2026...
->>>>>>> Stashed changes

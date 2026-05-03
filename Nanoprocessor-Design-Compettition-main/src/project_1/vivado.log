@@ -2,10 +2,10 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Sun May  3 11:13:12 2026
-# Process ID: 31116
+# Start of session at: Fri May  1 12:50:22 2026
+# Process ID: 9712
 # Current directory: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11380 C:\Users\USER\Desktop\Nanoprocessor-Design-Compettition-main\src\project_1\project_1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17152 C:\Users\USER\Desktop\Nanoprocessor-Design-Compettition-main\src\project_1\project_1.xpr
 # Log file: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/vivado.log
 # Journal file: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1\vivado.jou
 #-----------------------------------------------------------
@@ -16,30 +16,17 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
-open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:13 . Memory (MB): peak = 840.918 ; gain = 173.211
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 814.035 ; gain = 178.977
 update_compile_order -fileset sources_1
 reset_run synth_1
 launch_runs synth_1 -jobs 8
-[Sun May  3 11:15:05 2026] Launched synth_1...
-Run output will be captured here: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 8
-[Sun May  3 11:22:12 2026] Launched synth_1...
+[Fri May  1 12:50:46 2026] Launched synth_1...
 Run output will be captured here: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/synth_1/runme.log
 launch_runs impl_1 -jobs 8
-[Sun May  3 11:22:52 2026] Launched impl_1...
-Run output will be captured here: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/runme.log
-add_files -norecurse C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Div_4.vhd
-update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs synth_1 -jobs 8
-[Sun May  3 11:27:32 2026] Launched synth_1...
-Run output will be captured here: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/synth_1/runme.log
-launch_runs impl_1 -jobs 8
-[Sun May  3 11:28:11 2026] Launched impl_1...
+[Fri May  1 12:51:25 2026] Launched impl_1...
 Run output will be captured here: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/runme.log
 open_run impl_1
-INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2018.3
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
@@ -51,14 +38,14 @@ INFO: [Project 1-853] Binary constraint restore complete.
 Reading XDEF placement.
 Reading placer database...
 Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 1740.531 ; gain = 0.000
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1706.797 ; gain = 0.000
 Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 1740.531 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1740.531 ; gain = 0.000
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1706.797 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1706.797 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-open_run: Time (s): cpu = 00:00:27 ; elapsed = 00:00:21 . Memory (MB): peak = 1908.086 ; gain = 1001.469
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 1868.016 ; gain = 957.844
 launch_simulation -simset [get_filesets Final ]
 INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.sim/Final/behav/xsim'
 INFO: [SIM-utils-51] Simulation object is 'Final'
@@ -68,14 +55,138 @@ INFO: [USF-XSim-98] Fetching design files from 'Final'...
 INFO: [USF-XSim-2] XSim::Compile design
 INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.sim/Final/behav/xsim'
 "xvhdl --incr --relax -prj TB_Nano_Processor_7_Seg_vhdl.prj"
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Div_4.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'Div_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Add_Sub_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Add_Sub_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Adder_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Adder_3'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Comp_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Comp_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'D_FF'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Decoder_3_to_8'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FA'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'HA'
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Instruction_Decoder.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'Instruction_Decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LUT_16_7'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mul_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mul_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_2_to_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux_2_to_1'
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_3_2_to_1.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'Mux_3_2_to_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_2_to_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux_4_2_to_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Mux_4_8_to_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux_4_8_to_1'
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'Nano_Processor'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Nano_Processor_7_seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Nano_Processor_7_seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/new/Program_Counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Program_Counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Program_Rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Program_Rom'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/sources_1/imports/new/RCA_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RCA_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Reg_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Reg_Bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Reg_Bank'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Slow_Clk'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/Final/imports/lab9ak.sim/TB_Nano_Processor_7_Seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TB_Nano_Processor_7_Seg'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.sim/Final/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 41a95e760e764e1d8cbc20c4eb5b3f85 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Nano_Processor_7_Seg_behav xil_defaultlib.TB_Nano_Processor_7_Seg -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_4 [reg_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_Bank [reg_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_4_2_to_1 [mux_4_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_4_8_to_1 [mux_4_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Add_Sub_4 [add_sub_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mul_4 [mul_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_4 [comp_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_3 [adder_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_3_2_to_1 [mux_3_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor_7_seg [nano_processor_7_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_nano_processor_7_seg
+Built simulation snapshot TB_Nano_Processor_7_Seg_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.sim/Final/behav/xsim/xsim.dir/TB_Nano_Processor_7_Seg_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May  1 12:52:35 2026...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1868.016 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.sim/Final/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Nano_Processor_7_Seg_behav -key {Behavioral:Final:Functional:TB_Nano_Processor_7_Seg} -tclbatch {TB_Nano_Processor_7_Seg.tcl} -view {C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/TB_Nano_Processor_7_Seg_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/TB_Nano_Processor_7_Seg_behav.wcfg
+source TB_Nano_Processor_7_Seg.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Nano_Processor_7_Seg_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1902.496 ; gain = 34.480
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -simset [get_filesets Final ]
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.sim/Final/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'Final'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Nano_Processor_7_Seg' in fileset 'Final'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'Final'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.sim/Final/behav/xsim'
+"xvhdl --incr --relax -prj TB_Nano_Processor_7_Seg_vhdl.prj"
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.srcs/sources_1/imports/new/Program_Rom.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'Program_Rom'
 INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
@@ -109,7 +220,6 @@ Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
 Compiling architecture behavioral of entity xil_defaultlib.Add_Sub_4 [add_sub_4_default]
 Compiling architecture behavioral of entity xil_defaultlib.Mul_4 [mul_4_default]
 Compiling architecture behavioral of entity xil_defaultlib.Comp_4 [comp_4_default]
-Compiling architecture behavioral of entity xil_defaultlib.Div_4 [div_4_default]
 Compiling architecture behavioral of entity xil_defaultlib.Adder_3 [adder_3_default]
 Compiling architecture behavioral of entity xil_defaultlib.Mux_3_2_to_1 [mux_3_2_to_1_default]
 Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
@@ -120,16 +230,7 @@ Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_de
 Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor_7_seg [nano_processor_7_seg_default]
 Compiling architecture behavioral of entity xil_defaultlib.tb_nano_processor_7_seg
 Built simulation snapshot TB_Nano_Processor_7_Seg_behav
-
-****** Webtalk v2018.3 (64-bit)
-  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
-  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
-
-source C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.sim/Final/behav/xsim/xsim.dir/TB_Nano_Processor_7_Seg_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Sun May  3 11:31:54 2026...
-run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1927.387 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
 INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.sim/Final/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
@@ -151,4 +252,74 @@ source TB_Nano_Processor_7_Seg.tcl
 # run 1000ns
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Nano_Processor_7_Seg_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1927.387 ; gain = 0.000
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1938.945 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Fri May  1 13:29:45 2026] Launched synth_1...
+Run output will be captured here: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri May  1 13:30:45 2026] Launched impl_1...
+Run output will be captured here: C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -simset [get_filesets Final ]
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.sim/Final/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'Final'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Nano_Processor_7_Seg' in fileset 'Final'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'Final'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.sim/Final/behav/xsim'
+"xvhdl --incr --relax -prj TB_Nano_Processor_7_Seg_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.sim/Final/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 41a95e760e764e1d8cbc20c4eb5b3f85 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Nano_Processor_7_Seg_behav xil_defaultlib.TB_Nano_Processor_7_Seg -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/project_1.sim/Final/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Nano_Processor_7_Seg_behav -key {Behavioral:Final:Functional:TB_Nano_Processor_7_Seg} -tclbatch {TB_Nano_Processor_7_Seg.tcl} -view {C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/TB_Nano_Processor_7_Seg_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config C:/Users/USER/Desktop/Nanoprocessor-Design-Compettition-main/src/project_1/TB_Nano_Processor_7_Seg_behav.wcfg
+source TB_Nano_Processor_7_Seg.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Nano_Processor_7_Seg_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1938.945 ; gain = 0.000
+refresh_design
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.190 . Memory (MB): peak = 1938.945 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.191 . Memory (MB): peak = 1938.945 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 1946.137 ; gain = 7.191
